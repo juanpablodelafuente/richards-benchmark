@@ -8,7 +8,7 @@ This repository contains Jupyter notebooks that benchmark six numerical schemes 
 
 | Benchmark | Description                    | Methods Included               | Reference |
 |----------|-------------------------------|-------------------------------|-----------|
-| **Warrick** | Ponded infiltration with abrupt initial conditions | Explicit, Implicit | Warrick et al. (1991), DOI: [10.2136/sssaj1991.03615995005500050006x](https://doi.org/10.2136/sssaj1991.03615995005500050006x) |
+| **Warrick** | Ponded infiltration with abrupt initial conditions | Explicit, Implicit | Warrick et al. (1991), DOI: [10.2136/sssaj1991.03615995005500050006x](https://doi.org/10.1023/B:ENVR.0000046450.62059.62) |
 | **Polmann** | Dry initial conditions with rainfall application | All methods | Polmann et al. (1991), DOI: [10.1016/0022-1694(91)90075-F](https://doi.org/10.1016/0022-1694(91)90075-F) |
 | **Miller** | Wetting front: constant pressure head ψ = -z | Picard & Newton (ψ and mixed form) | Miller et al. (1998), DOI: [10.1029/98WR01936](https://doi.org/10.1029/98WR01936) |
 | **Lehmann** | Transient fluxes over a 2-day time series | Picard (ψ and mixed form) | Lehmann et al. (1998), DOI: [10.1029/97WR03468](https://doi.org/10.1029/97WR03468) |
