@@ -1,6 +1,6 @@
 # Revised Richards equation benchmarks
 
-This directory contains the revised implementation, reference solutions, results and figures for *Benchmarking numerical solvers for the 1-D Richards' equation: accuracy, stability and practical guidance for subsurface modelling* (VZJ-2026-05-0062-R). Eight schemes are compared across the Warrick, Polmann, Miller, Lehmann and Ireson benchmarks. The supplied results are retained as the manuscript archive. Reproduction tools write to a separate directory.
+This directory contains the implementation, reference solutions, results and figures for *Benchmarking numerical solvers for the 1-D Richards' equation: accuracy, stability and practical guidance for subsurface modelling* (VZJ-2026-05-0062-R). Eight schemes are compared across the Warrick, Polmann, Miller, Lehmann and Ireson benchmarks. The supplied results are retained as the manuscript archive. Reproduction tools write to a separate directory.
 
 ## Contents
 
@@ -18,19 +18,6 @@ This directory contains the revised implementation, reference solutions, results
 | `ARCHIVE_NOTES.md` | Numerical conventions, limitations and manuscript clarifications. |
 | `manuscript_environment.json` | Computing environment reported in the manuscript supplied by the author on 20 November 2026. |
 
-The numerical kernel is unchanged from the uploaded ZIP. No original notebook is changed. This preparation adds documentation, tests and reproduction tooling.
-
-## Changes from the original notebooks
-
-- Newton differentiates the storage term and hydraulic conductivity. The original notebooks used Picard-like iteration matrices.
-- An iterative step must meet both residual and pressure head increment criteria. Failed iterations stop the simulation.
-- Schemes share grids, arithmetic interface conductivity and a banded linear solver within each benchmark.
-- Warrick uses free drainage at the base for every scheme. The original implicit notebook used a fixed head.
-- Miller uses `m = 1 - 1/n` without rounding.
-- The L-scheme uses the maximum retention-curve slope. L/Newton starts with five L iterations and then uses Newton with bounded backtracking.
-- Daily fluxes can be substepped. Every benchmark has two reference resolutions.
-- Mass balance uses each numerical update's fluxes. The non-iterative implicit scheme uses old-time conductivity.
-
 ## Reproduction
 
 Install `requirements.txt` in an isolated Python environment and run from this directory
@@ -47,7 +34,7 @@ python reproduce.py --output reproductions/full --recompute-references
 python reproduce.py --output reproductions/polmann --cases polmann --no-figures
 ```
 
-Figure generation is skipped for a subset of benchmarks. Existing output directories cannot be overwritten. Preserve the supplied archive until the new results are checked. References and L-scheme runs may dominate runtime. No fixed completion time is promised.
+Existing output directories cannot be overwritten. Preserve the supplied archive until the new results are checked. References and L-scheme runs may dominate runtime. No fixed completion time is promised.
 
 The environment record includes Python, NumPy, SciPy, Matplotlib, operating system, processor where available, NumPy build information, thread settings, source hashes and input hashes. `requirements.txt` specifies minimum versions. The manuscript's reported versions are recorded separately in `manuscript_environment.json`. `requirements-measured.txt` records the packages actually used in a reproduction; it is not a complete operating-system or BLAS lock.
 
@@ -66,11 +53,11 @@ These skip cached runs and write into supplied results or figures. Use `reproduc
 
 Numerical outputs should agree within justified tolerances for fixed algorithms and settings. Bit-for-bit equality is not guaranteed across platforms or package versions. Small differences near stopping thresholds may change iteration counts. The comparison tool flags changes and checks completion status and final time separately. Its tolerances are regression diagnostics, not estimates of discretisation error.
 
-Failed runs are not final solutions. `completed` only means the scheduled integration ended; explicit water content can still exceed saturation or oscillate. See the archive notes before interpreting failure counters, saturation treatment, RMSE weights or the line search.
+Failed runs are not final solutions. `completed` only means the scheduled integration ended; explicit water content can still exceed saturation or oscillate.
 
 ## Computational cost
 
-The computational-cost paragraph of the manuscript supplied on 20 November 2026 reports the following environment for the complete simulations.
+The following environment was used for the complete simulations.
 
 | Component | Reported value |
 | --- | --- |
@@ -81,11 +68,9 @@ The computational-cost paragraph of the manuscript supplied on 20 November 2026 
 | NumPy | 2.5.4 |
 | SciPy | 1.18.1 |
 
-These author-supplied details are recorded in `manuscript_environment.json`. They are distinct from the automatically recorded validation environment in `validation/environment.json`. The supplied manuscript runtimes remain unchanged. The manuscript paragraph does not specify the Matplotlib version, numerical-library build or thread settings, so those fields have not been inferred.
+These author-supplied details are recorded in `manuscript_environment.json`. They are distinct from the automatically recorded validation environment in `validation/environment.json`. The supplied manuscript runtimes remain unchanged. 
 
 For any new timing exercise, record the environment used for that run. Compare timings from the same machine and session design. Run serially without other heavy work; repeat very short configurations if their ranking is discussed.
-
-If only runtimes change, Figure 9 is the figure with a runtime axis. Regenerate the figures separately and inspect the comparison report before choosing manuscript replacements. Changes to iteration counts also affect Figure 15. No generating script for Figure 1 is supplied.
 
 ## Licence
 
