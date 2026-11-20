@@ -37,7 +37,9 @@ These tests verify specific algebraic properties. They do not prove global conve
 
 The independent reproduction used Python 3.12.14, NumPy 2.3.5, SciPy 1.17.0 and Matplotlib 3.10.8 on an INTEL(R) XEON(R) PLATINUM 8573C. The full operating-system, build, thread and hash record is in `validation/environment.json`.
 
-These are validation measurements in the execution environment. They are not measurements on the author's laptop and are not adopted manuscript runtimes. Other assessment work was performed during the overall validation session, and timings were not repeated to estimate variability. The original package's runtime environment remains unknown.
+These are validation measurements in the execution environment. They are not measurements on the author's laptop and are not adopted manuscript runtimes. Other assessment work was performed during the overall validation session, and timings were not repeated to estimate variability.
+
+On 20 November 2026 the author supplied `Manuscript_VZJ-2026-05-0062-R(3).docx` and identified its computational-cost paragraph as the source of the manuscript timing environment. It reports Intel 12th Gen Core i7-1265U, 32 GB RAM, 64-bit Windows 10 Enterprise, Python 3.15.2, NumPy 2.5.4 and SciPy 1.18.1. These reported values are recorded in `manuscript_environment.json`. They were read from the manuscript, not measured by the separate validation run. The supplied runtimes and validation environment record have both been preserved.
 
 Exact agreement was observed in this reproduction. It is not a guarantee of exact agreement on every other platform or software version. `reproduce.py` therefore records and flags differences for inspection rather than assuming only runtime can change.
 
@@ -52,7 +54,7 @@ Exact agreement was observed in this reproduction. It is not a guarantee of exac
 3. Disclose the small positive saturated capacity in the pressure head formulations and modified Picard iteration matrix.
 4. Describe the bounded backtracking faithfully. Its minimum-factor update is not guaranteed to satisfy the sufficient-decrease test.
 5. Treat explicit oversaturation as an inadmissible comparison outcome. Interpret failure counters as accepted-step information, with the documented dummy entry at first-step failure.
-6. Confirm the licence and timing provenance, then check the final PDF and response letter against the chosen archived version.
+6. Check the final manuscript and response letter against the chosen archived version. The author has selected MIT for the revised code and supplied the manuscript timing environment.
 
 Most of these are specific documentation corrections if the supplied numerical implementation is retained. If the storage convention, saturated capacity or line-search acceptance rule is changed, a new checked numerical run is needed. Suggested manuscript wording and exact functions are in `ARCHIVE_NOTES.md`.
 
@@ -60,6 +62,6 @@ Most of these are specific documentation corrections if the supplied numerical i
 
 During initial preparation, the GitHub repository was readable but creating a branch returned HTTP 403, `Resource not accessible by integration`, and a normal Git push lacked authenticated credentials. After the repository authorisation was updated on 19 November 2026, write access was verified by creating `prepare-v2-archive`. This branch contains the preparation for review. No release, Zenodo record or ORCID account has been published or changed by this preparation.
 
-The existing Zenodo public metadata identify DOI `10.5281/zenodo.16806592` as v1.0.1, with concept DOI `10.5281/zenodo.16806591`, creator `JP_delaf` and licence CC BY 4.0. The previous GitHub README stated MIT without a licence file. This conflict needs an author decision before a new licence is adopted.
+The existing Zenodo public metadata identify DOI `10.5281/zenodo.16806592` as v1.0.1, with concept DOI `10.5281/zenodo.16806591`, creator `JP_delaf` and licence CC BY 4.0. On 20 November 2026 the author selected MIT for the revised code. The standard text is now in the root `LICENSE`, `CITATION.cff` declares MIT, and the README explains its scope. This does not alter the earlier Zenodo record or separately applicable third-party terms.
 
-No new manuscript PDF accompanied the uploaded solver ZIP. The scientific wording checks used the previously available `Manuscript_VZJ-2026-05-0062-R(2).docx`. They cannot certify the contents or line numbers of a newer PDF.
+The initial scientific wording checks used `Manuscript_VZJ-2026-05-0062-R(2).docx`. The later `(3).docx` supplied on 20 November 2026 was read to record the computing environment in this update. This metadata update is not a complete scientific review of that later manuscript or a verification of its rendered line numbers.

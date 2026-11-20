@@ -14,6 +14,7 @@ authors:
     affiliation: "School of Engineering, Newcastle University"
 repository-code: "https://github.com/juanpablodelafuente/richards-benchmark"
 version: "2.0.0"
+license: MIT
 abstract: >-
   Numerical implementations and reference solutions for five one-dimensional
   Richards equation benchmarks, including explicit and non-iterative implicit
@@ -24,5 +25,5 @@ keywords:
   - numerical benchmarking
   - mass balance
   - L-scheme
-# Preparation metadata. Confirm licence before release. Add the new version DOI
-# after assignment. The v1.0.1 DOI does not identify version 2.0.0.
+# MIT applies to the revised code; see README.md for the licence scope.
+# Add the new version DOI after assignment. The v1.0.1 DOI does not identify version 2.0.0.

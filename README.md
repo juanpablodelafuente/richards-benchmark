@@ -39,12 +39,20 @@ The new command preserves `results/`, reruns all ordinary configurations, copies
 
 The complete repository is needed for the Ireson rainfall and HYDRUS files in `notebooks/ireson/`. The legacy notebook environment in `environment.yml` is separate from the revised solver requirements.
 
+## Computing environment reported in the manuscript
+
+The computational-cost paragraph of the revised manuscript reports an Intel 12th Gen Core i7-1265U processor, 32 GB RAM, 64-bit Windows 10 Enterprise, Python 3.15.2, NumPy 2.5.4 and SciPy 1.18.1. These details were supplied by the author on 20 November 2026 and are recorded in [`revised_solver/manuscript_environment.json`](revised_solver/manuscript_environment.json).
+
+The separate reproduction environment is recorded in `revised_solver/validation/environment.json`. Its timings are validation measurements and have not replaced the supplied manuscript runtimes.
+
 ## Citation and archive
 
 The original notebook archive is **v1.0.1**, DOI https://doi.org/10.5281/zenodo.16806592. Its all-versions DOI is https://doi.org/10.5281/zenodo.16806591. Cite the specific new version DOI for the revised study after publication. No DOI for version 2.0.0 has been assigned in this prepared package.
 
 `CITATION.cff` prepares the three-author metadata for the proposed version 2.0.0. ORCIDs are omitted until confirmed. The release sequence is in [`release/RELEASE_CHECKLIST.md`](release/RELEASE_CHECKLIST.md).
 
-## Licence decision before release
+## Licence
 
-The previous README stated MIT, but no licence file was present. The existing Zenodo record v1.0.1 lists CC BY 4.0. The authors need to settle the intended licence and its scope before publishing version 2.0.0. A proposed MIT text is in `release/LICENSE_MIT_proposed.txt`; it is not an adopted root licence. Existing third-party attribution and applicable input-data terms must be preserved.
+The revised Python code in `revised_solver/`, including the added reproduction and verification utilities, is licensed under the [MIT License](LICENSE), selected by the author on 20 November 2026.
+
+This declaration applies to the revised code. Original notebooks, third-party inputs and other material retain any separately applicable terms and attribution. The existing Zenodo v1.0.1 record lists CC BY 4.0; adopting MIT for the revised code does not change that earlier record.

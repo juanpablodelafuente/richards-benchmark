@@ -58,7 +58,7 @@ The ordinary Polmann run list includes 42, 60, 90 and 126 s but not 50 s. The 50
 
 ## 7. Reproduction, provenance and plots
 
-All 109 supplied CSV rows match their summary JSON values. Recomputing the saved profile errors from the NPZ files gives the same summary errors. The original source environment is not recorded, so it cannot be inferred from the speed of a new run. The reproduction tool records a new environment and keeps original outputs intact.
+All 109 supplied CSV rows match their summary JSON values. Recomputing the saved profile errors from the NPZ files gives the same summary errors. The author supplied the manuscript's computing environment on 20 November 2026. It is recorded in `manuscript_environment.json` and the README. The reproduction tool records its own environment and keeps original outputs intact; the validation measurements in `validation/environment.json` are separate from the manuscript timings.
 
 The complete checkout is required for `notebooks/ireson/infiltration.dat` and `T_Level.out`. Figure 1 is supplied as an image without a generation script. Figures 2–15 can be regenerated. Figure 9 depends on runtime; Figure 15 depends on iteration counts. If either quantities or profiles change, inspect every affected figure and manuscript number rather than assuming only runtime changed.
 

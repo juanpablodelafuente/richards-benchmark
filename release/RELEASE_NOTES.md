@@ -6,4 +6,6 @@ This release adds the revised implementation, reference solutions, saved results
 
 The framework uses a complete Newton Jacobian, explicit reporting of failed iterations, scheme-consistent mass balance calculations, a common banded linear solver and two reference resolutions per benchmark. Reproduction preserves supplied results and records the computing environment. The README and archive notes explain numerical conventions and limitations.
 
-Before publishing, resolve the licence decision, finalise timing provenance and review the validation report. This file prepares a release; version 2.0.0 has not been published.
+The revised Python code is licensed under MIT. The manuscript reports timings on an Intel 12th Gen Core i7-1265U with 32 GB RAM, 64-bit Windows 10 Enterprise, Python 3.15.2, NumPy 2.5.4 and SciPy 1.18.1. These details are recorded in `revised_solver/manuscript_environment.json`; the independent validation environment is recorded separately.
+
+Review the validation report and final manuscript before publishing. This file prepares a release; version 2.0.0 has not been published.

@@ -1,0 +1,21 @@
+{
+  "record_type": "environment_reported_in_manuscript",
+  "recorded_date": "2026-11-20",
+  "source_document": "Manuscript_VZJ-2026-05-0062-R(3).docx",
+  "source_sha256": "5e714c94ed2fcd0b55c642c35dc6c7e499d41394f0c0465e572a3caf3c256220",
+  "source_section": "Evaluation Criteria, Computational cost paragraph",
+  "processor": "Intel 12th Gen Core i7-1265U",
+  "ram_gb": 32,
+  "operating_system": "Windows 10 Enterprise",
+  "operating_system_bits": 64,
+  "python": "3.15.2",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1",
+  "matplotlib": null,
+  "numerical_library_build": null,
+  "thread_settings": null,
+  "provenance": "Supplied by the author in the revised manuscript. This is a transcription of the reported environment, not an automatically measured environment record.",
+  "unreported_fields": "Null fields were not specified in the source paragraph and have not been inferred.",
+  "separate_validation_environment": "validation/environment.json",
+  "archived_runtimes_changed": false
+}

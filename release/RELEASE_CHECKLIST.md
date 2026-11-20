@@ -3,10 +3,10 @@
 ## Before release
 
 1. Read `revised_solver/ARCHIVE_NOTES.md` and the validation report. Align the final manuscript with the actual storage, RMSE, saturation and line-search conventions.
-2. Confirm the licence. The existing README stated MIT without a licence file, while Zenodo v1.0.1 lists CC BY 4.0. If MIT is selected, adopt the proposed text as root `LICENSE`, confirm the copyright holder and scope, and add `license: MIT` to `CITATION.cff`. Preserve third-party attribution and applicable input-data terms. Remove draft licence notes after the decision.
+2. The revised code is licensed under MIT, as selected by the author on 20 November 2026. The root `LICENSE`, README and `CITATION.cff` now record this choice. Preserve the stated scope, third-party attribution and separately applicable terms; the earlier Zenodo v1.0.1 record remains unchanged.
 3. Confirm the authors in `CITATION.cff`. Add only verified ORCIDs. Vassilis Glenis also has a Willis Research Network affiliation in the latest available manuscript; confirm its representation in the archive.
-4. Retain supplied runtimes only if their actual original environment can be documented. Otherwise run `python reproduce.py --output reproductions/laptop` on the machine whose timings will be reported. Inspect `comparison.json` and `environment.json` before replacing manuscript values. References are copied; use `--recompute-references` for an independent reference rerun.
-5. Adopt new results, tables and figures in a separate checked commit, with the measured environment. Update every runtime statement and affected figure. Recheck the final manuscript PDF and response-letter line references.
+4. The manuscript's reported computing environment is recorded in `revised_solver/manuscript_environment.json` and its README. Retain the supplied runtimes with that description. A fresh timing exercise is optional and can use `python reproduce.py --output reproductions/laptop`. Inspect `comparison.json` and `environment.json` before adopting any new measurements. References are copied unless `--recompute-references` is selected.
+5. If new results, tables or figures are adopted, use a separate checked commit with the measured environment and update every affected manuscript value. Check the final manuscript PDF and response-letter line references before submission.
 6. Merge preparation changes only after these decisions and checks. Do not publish v2.0.0 from an unfinished preparation branch.
 
 ## Connect and archive
@@ -24,7 +24,7 @@
 
 The Python code, reference solutions and numerical results are available in Zenodo as version 2.0.0 at [new version DOI], archived from https://github.com/juanpablodelafuente/richards-benchmark. The original notebooks are preserved in version 1.0.1 at https://doi.org/10.5281/zenodo.16806592.
 
-Replace the bracketed DOI after assignment. No new manuscript PDF accompanied the solver ZIP in this task, so final line references need checking against that PDF.
+Replace the bracketed DOI after assignment. The revised Word manuscript supplied on 20 November 2026 provided the computing details. Final response-letter line references need checking against the final manuscript layout.
 
 ## Official guidance
 

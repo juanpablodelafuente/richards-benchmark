@@ -16,6 +16,7 @@ This directory contains the revised implementation, reference solutions, results
 | `tables/all_results.csv` | Supplied combined table of 109 rows. |
 | `figures/` | Supplied Figures 1–15. Figure 1 is a separately supplied schematic. |
 | `ARCHIVE_NOTES.md` | Numerical conventions, limitations and manuscript clarifications. |
+| `manuscript_environment.json` | Computing environment reported in the manuscript supplied by the author on 20 November 2026. |
 
 The numerical kernel is unchanged from the uploaded ZIP. No original notebook is changed. This preparation adds documentation, tests and reproduction tooling.
 
@@ -48,7 +49,7 @@ python reproduce.py --output reproductions/polmann --cases polmann --no-figures
 
 Figure generation is skipped for a subset of benchmarks. Existing output directories cannot be overwritten. Preserve the supplied archive until the new results are checked. References and L-scheme runs may dominate runtime. No fixed completion time is promised.
 
-The environment record includes Python, NumPy, SciPy, Matplotlib, operating system, processor where available, NumPy build information, thread settings, source hashes and input hashes. `requirements.txt` specifies minimum versions, not the unknown original environment. `requirements-measured.txt` records the packages actually used in a reproduction; it is not a complete operating-system or BLAS lock.
+The environment record includes Python, NumPy, SciPy, Matplotlib, operating system, processor where available, NumPy build information, thread settings, source hashes and input hashes. `requirements.txt` specifies minimum versions. The manuscript's reported versions are recorded separately in `manuscript_environment.json`. `requirements-measured.txt` records the packages actually used in a reproduction; it is not a complete operating-system or BLAS lock.
 
 The original low-level commands remain available
 
@@ -69,6 +70,23 @@ Failed runs are not final solutions. `completed` only means the scheduled integr
 
 ## Computational cost
 
-The original processor, operating system and package versions were not recorded in the supplied ZIP. They cannot be recovered reliably from the results. New runtimes belong to the environment recorded by the reproduction. For laptop timings, run there and use its environment record. Compare timings from the same machine and session design. Run serially without other heavy work; repeat very short configurations if their ranking is discussed.
+The computational-cost paragraph of the manuscript supplied on 20 November 2026 reports the following environment for the complete simulations.
+
+| Component | Reported value |
+| --- | --- |
+| Processor | Intel 12th Gen Core i7-1265U |
+| RAM | 32 GB |
+| Operating system | Windows 10 Enterprise, 64-bit |
+| Python | 3.15.2 |
+| NumPy | 2.5.4 |
+| SciPy | 1.18.1 |
+
+These author-supplied details are recorded in `manuscript_environment.json`. They are distinct from the automatically recorded validation environment in `validation/environment.json`. The supplied manuscript runtimes remain unchanged. The manuscript paragraph does not specify the Matplotlib version, numerical-library build or thread settings, so those fields have not been inferred.
+
+For any new timing exercise, record the environment used for that run. Compare timings from the same machine and session design. Run serially without other heavy work; repeat very short configurations if their ranking is discussed.
 
 If only runtimes change, Figure 9 is the figure with a runtime axis. Regenerate the figures separately and inspect the comparison report before choosing manuscript replacements. Changes to iteration counts also affect Figure 15. No generating script for Figure 1 is supplied.
+
+## Licence
+
+The revised Python code and added reproduction and verification utilities use the [MIT License](../LICENSE). See the repository README for the scope and treatment of other material.
