@@ -1,0 +1,21 @@
+{
+ "case": "miller",
+ "method": "picard_psi",
+ "dz": 0.0125,
+ "dt": 0.005,
+ "status": "completed",
+ "reason": "",
+ "t_end": 0.18,
+ "runtime": 0.17100995200007674,
+ "it_total": 802,
+ "it_mean": 22.27777777777778,
+ "it_max": 765,
+ "n_steps": 36,
+ "dS": 2.0307239104440002,
+ "Qnet": 5.043687500002836e-05,
+ "MB": 40262.68301600483,
+ "epsB": -2.030673473569,
+ "MB_endstep": 40262.68301600483,
+ "length_unit": "m",
+ "time_unit": "day"
+}

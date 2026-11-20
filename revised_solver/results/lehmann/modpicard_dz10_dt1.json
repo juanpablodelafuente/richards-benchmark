@@ -1,0 +1,21 @@
+{
+ "case": "lehmann",
+ "method": "modpicard",
+ "dz": 10.0,
+ "dt": 1.0,
+ "status": "failed",
+ "reason": "no convergence in 10000 iterations (scaled residual 1.93e-01) at t = 34 day (step 35)",
+ "t_end": 34.0,
+ "runtime": 1.3777639960001125,
+ "it_total": 1477,
+ "it_mean": 43.44117647058823,
+ "it_max": 947,
+ "n_steps": 34,
+ "dS": 4.7999665362885615,
+ "Qnet": 4.799966536288545,
+ "MB": 1.0000000000000036,
+ "epsB": -1.687538997430238e-14,
+ "MB_endstep": 1.0000000000000036,
+ "length_unit": "cm",
+ "time_unit": "day"
+}

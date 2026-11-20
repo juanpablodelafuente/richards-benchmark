@@ -1,0 +1,21 @@
+{
+ "case": "miller",
+ "method": "lnewton",
+ "dz": 0.0125,
+ "dt": 0.002,
+ "status": "completed",
+ "reason": "",
+ "t_end": 0.18,
+ "runtime": 1.0835296860000199,
+ "it_total": 2204,
+ "it_mean": 24.488888888888887,
+ "it_max": 50,
+ "n_steps": 90,
+ "dS": 1.0366030905793124,
+ "Qnet": 1.036603090579312,
+ "MB": 1.0000000000000004,
+ "epsB": -4.440892098500626e-16,
+ "MB_endstep": 1.0000000000000004,
+ "length_unit": "m",
+ "time_unit": "day"
+}

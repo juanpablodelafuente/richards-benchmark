@@ -1,0 +1,39 @@
+{
+  "recorded_utc": "2026-11-19T19:07:11.931111+00:00",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "numpy": "2.3.5",
+  "scipy": "1.17.0",
+  "matplotlib": "3.10.8",
+  "operating_system": "Linux-6.18.57-x86_64-with-glibc2.41",
+  "processor": "INTEL(R) XEON(R) PLATINUM 8573C",
+  "logical_cpus": 9,
+  "numpy_build": "Build Dependencies:\n  blas:\n    detection method: pkgconfig\n    found: true\n    include directory: /opt/_internal/cpython-3.12.12/lib/python3.12/site-packages/scipy_openblas64/include\n    lib directory: /opt/_internal/cpython-3.12.12/lib/python3.12/site-packages/scipy_openblas64/lib\n    name: scipy-openblas\n    openblas configuration: OpenBLAS 0.3.30  USE64BITINT DYNAMIC_ARCH NO_AFFINITY\n      Haswell MAX_THREADS=64\n    pc file directory: /project/.openblas\n    version: 0.3.30\n  lapack:\n    detection method: pkgconfig\n    found: true\n    include directory: /opt/_internal/cpython-3.12.12/lib/python3.12/site-packages/scipy_openblas64/include\n    lib directory: /opt/_internal/cpython-3.12.12/lib/python3.12/site-packages/scipy_openblas64/lib\n    name: scipy-openblas\n    openblas configuration: OpenBLAS 0.3.30  USE64BITINT DYNAMIC_ARCH NO_AFFINITY\n      Haswell MAX_THREADS=64\n    pc file directory: /project/.openblas\n    version: 0.3.30\nCompilers:\n  c:\n    commands: cc\n    linker: ld.bfd\n    name: gcc\n    version: 14.2.1\n  c++:\n    commands: c++\n    linker: ld.bfd\n    name: gcc\n    version: 14.2.1\n  cython:\n    commands: cython\n    linker: cython\n    name: cython\n    version: 3.2.1\nMachine Information:\n  build:\n    cpu: x86_64\n    endian: little\n    family: x86_64\n    system: linux\n  host:\n    cpu: x86_64\n    endian: little\n    family: x86_64\n    system: linux\nPython Information:\n  path: /tmp/build-env-aw1mwcap/bin/python\n  version: '3.12'\nSIMD Extensions:\n  baseline:\n  - SSE\n  - SSE2\n  - SSE3\n  found:\n  - SSSE3\n  - SSE41\n  - POPCNT\n  - SSE42\n  - AVX\n  - F16C\n  - FMA3\n  - AVX2\n  - AVX512F\n  - AVX512CD\n  - AVX512_SKX\n  - AVX512_CLX\n  - AVX512_CNL\n  - AVX512_ICL\n  - AVX512_SPR\n  not found:\n  - AVX512_KNL\n  - AVX512_KNM\n\n",
+  "git_commit": "222c73a344592c4e3049b7b4e0fa1bf8cd702161",
+  "working_tree_modified": true,
+  "thread_environment": {
+    "OMP_NUM_THREADS": null,
+    "OPENBLAS_NUM_THREADS": null,
+    "MKL_NUM_THREADS": null
+  },
+  "file_sha256": {
+    "revised_solver/richards_revised.py": "0fb55849756554fa9447d8c5bed0e5f72bdfa013baad66d5ddba6f6a86696167",
+    "revised_solver/run_all.py": "c06e94e7118c6176f45137de6b5f5908713501a07db08a284ba260c3d800b334",
+    "revised_solver/make_figures.py": "f84760cf7362d447a0e8b17f529cb27c3aaba69859ad353281557b1e8f0833dc",
+    "revised_solver/reproduce.py": "fb23fc7df3ae098f1af48e34d5b85a0b1992e4c85620e05fd525d44044825c5b",
+    "notebooks/ireson/infiltration.dat": "eba13992eb92a869f2e756802886cbc6af1d7a32ae42bf756c78d00d51864977",
+    "notebooks/ireson/T_Level.out": "bafbe5f1c78cdc297908797e244651a4639ae2d77c78ac8a91d89873ebcadc57"
+  },
+  "cases": [
+    "warrick",
+    "polmann",
+    "miller",
+    "lehmann",
+    "ireson"
+  ],
+  "reference_policy": "recomputed",
+  "timings": "One serial measurement per configuration; not repeated timing statistics.",
+  "state": "completed",
+  "reference_sha256": {},
+  "completed_utc": "2026-11-19T19:22:28.122377+00:00",
+  "runs_requiring_review": 0
+}

@@ -1,0 +1,21 @@
+{
+ "case": "warrick",
+ "method": "picard_psi",
+ "dz": 5.0,
+ "dt": 900,
+ "status": "completed",
+ "reason": "",
+ "t_end": 360000.0,
+ "runtime": 0.311687978000009,
+ "it_total": 2278,
+ "it_mean": 5.695,
+ "it_max": 18,
+ "n_steps": 400,
+ "dS": 9.317505875861123,
+ "Qnet": 9.455328358753482,
+ "MB": 0.9854238290133238,
+ "epsB": 0.13782248289235888,
+ "MB_endstep": 0.9854238290133238,
+ "length_unit": "cm",
+ "time_unit": "s"
+}

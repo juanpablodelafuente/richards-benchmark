@@ -1,0 +1,21 @@
+{
+ "case": "ireson",
+ "method": "modpicard",
+ "dz": 0.05,
+ "dt": 1.0,
+ "status": "completed",
+ "reason": "",
+ "t_end": 3652.0,
+ "runtime": 2.729566087999956,
+ "it_total": 26489,
+ "it_mean": 7.25328587075575,
+ "it_max": 26,
+ "n_steps": 3652,
+ "dS": 0.006524467816787727,
+ "Qnet": 0.006524466934487389,
+ "MB": 1.0000001352294903,
+ "epsB": -8.823003378247152e-10,
+ "MB_endstep": 1.0000001352294903,
+ "length_unit": "m",
+ "time_unit": "day"
+}

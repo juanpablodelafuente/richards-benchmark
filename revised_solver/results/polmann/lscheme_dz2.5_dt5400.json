@@ -1,0 +1,21 @@
+{
+ "case": "polmann",
+ "method": "lscheme",
+ "dz": 2.5,
+ "dt": 5400,
+ "status": "completed",
+ "reason": "",
+ "t_end": 21600.0,
+ "runtime": 2.755532900000162,
+ "it_total": 20626,
+ "it_mean": 5156.5,
+ "it_max": 5214,
+ "n_steps": 4,
+ "dS": 1.6392959506975782,
+ "Qnet": 1.6392959669524552,
+ "MB": 0.9999999900842329,
+ "epsB": 1.6254876999965973e-08,
+ "MB_endstep": 0.9999999900842329,
+ "length_unit": "cm",
+ "time_unit": "s"
+}

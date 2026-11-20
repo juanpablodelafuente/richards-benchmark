@@ -1,0 +1,21 @@
+{
+ "case": "ireson",
+ "method": "newton_mixed",
+ "dz": 0.05,
+ "dt": 1.0,
+ "status": "completed",
+ "reason": "",
+ "t_end": 3652.0,
+ "runtime": 2.102825088000145,
+ "it_total": 14947,
+ "it_mean": 4.092825848849945,
+ "it_max": 9,
+ "n_steps": 3652,
+ "dS": 0.006524467805838485,
+ "Qnet": 0.0065244678058367775,
+ "MB": 1.0000000000002618,
+ "epsB": -1.7078352620991666e-15,
+ "MB_endstep": 1.0000000000002618,
+ "length_unit": "m",
+ "time_unit": "day"
+}

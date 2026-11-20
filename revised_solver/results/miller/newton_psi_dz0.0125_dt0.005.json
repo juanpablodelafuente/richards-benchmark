@@ -1,0 +1,21 @@
+{
+ "case": "miller",
+ "method": "newton_psi",
+ "dz": 0.0125,
+ "dt": 0.005,
+ "status": "failed",
+ "reason": "singular linear system at iteration 811 at t = 0 day (step 1)",
+ "t_end": 0.0,
+ "runtime": 0.33285862000002453,
+ "it_total": 0,
+ "it_mean": 0.0,
+ "it_max": 0,
+ "n_steps": 1,
+ "dS": 0.0,
+ "Qnet": 0.0,
+ "MB": NaN,
+ "epsB": 0.0,
+ "MB_endstep": NaN,
+ "length_unit": "m",
+ "time_unit": "day"
+}

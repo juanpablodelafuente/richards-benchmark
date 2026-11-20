@@ -1,0 +1,680 @@
+[
+  {
+    "case": "warrick",
+    "file": "explicit_dz5_dt1.json",
+    "metadata_identical_except_runtime": true,
+    "arrays_identical": true
+  },
+  {
+    "case": "warrick",
+    "file": "explicit_dz5_dt1800.json",
+    "metadata_identical_except_runtime": true,
+    "arrays_identical": true
+  },
+  {
+    "case": "warrick",
+    "file": "explicit_dz5_dt300.json",
+    "metadata_identical_except_runtime": true,
+    "arrays_identical": true
+  },
+  {
+    "case": "warrick",
+    "file": "explicit_dz5_dt60.json",
+    "metadata_identical_except_runtime": true,
+    "arrays_identical": true
+  },
+  {
+    "case": "warrick",
+    "file": "explicit_dz5_dt900.json",
+    "metadata_identical_except_runtime": true,
+    "arrays_identical": true
+  },
+  {
+    "case": "warrick",
+    "file": "linimp_dz5_dt1.json",
+    "metadata_identical_except_runtime": true,
+    "arrays_identical": true
+  },
+  {
+    "case": "warrick",
+    "file": "linimp_dz5_dt2400.json",
+    "metadata_identical_except_runtime": true,
+    "arrays_identical": true
+  },
+  {
+    "case": "warrick",
+    "file": "linimp_dz5_dt900.json",
+    "metadata_identical_except_runtime": true,
+    "arrays_identical": true
+  },
+  {
+    "case": "warrick",
+    "file": "lnewton_dz5_dt2400.json",
+    "metadata_identical_except_runtime": true,
+    "arrays_identical": true
+  },
+  {
+    "case": "warrick",
+    "file": "lnewton_dz5_dt900.json",
+    "metadata_identical_except_runtime": true,
+    "arrays_identical": true
+  },
+  {
+    "case": "warrick",
+    "file": "lscheme_dz5_dt2400.json",
+    "metadata_identical_except_runtime": true,
+    "arrays_identical": true
+  },
+  {
+    "case": "warrick",
+    "file": "lscheme_dz5_dt900.json",
+    "metadata_identical_except_runtime": true,
+    "arrays_identical": true
+  },
+  {
+    "case": "warrick",
+    "file": "modpicard_dz5_dt2400.json",
+    "metadata_identical_except_runtime": true,
+    "arrays_identical": true
+  },
+  {
+    "case": "warrick",
+    "file": "modpicard_dz5_dt900.json",
+    "metadata_identical_except_runtime": true,
+    "arrays_identical": true
+  },
+  {
+    "case": "warrick",
+    "file": "newton_mixed_dz5_dt2400.json",
+    "metadata_identical_except_runtime": true,
+    "arrays_identical": true
+  },
+  {
+    "case": "warrick",
+    "file": "newton_mixed_dz5_dt900.json",
+    "metadata_identical_except_runtime": true,
+    "arrays_identical": true
+  },
+  {
+    "case": "warrick",
+    "file": "newton_psi_dz5_dt2400.json",
+    "metadata_identical_except_runtime": true,
+    "arrays_identical": true
+  },
+  {
+    "case": "warrick",
+    "file": "newton_psi_dz5_dt900.json",
+    "metadata_identical_except_runtime": true,
+    "arrays_identical": true
+  },
+  {
+    "case": "warrick",
+    "file": "picard_psi_dz5_dt2400.json",
+    "metadata_identical_except_runtime": true,
+    "arrays_identical": true
+  },
+  {
+    "case": "warrick",
+    "file": "picard_psi_dz5_dt900.json",
+    "metadata_identical_except_runtime": true,
+    "arrays_identical": true
+  },
+  {
+    "case": "warrick",
+    "file": "ref0.json",
+    "metadata_identical_except_runtime": true,
+    "arrays_identical": true
+  },
+  {
+    "case": "warrick",
+    "file": "ref1.json",
+    "metadata_identical_except_runtime": true,
+    "arrays_identical": true
+  },
+  {
+    "case": "polmann",
+    "file": "explicit_dz2.5_dt1.json",
+    "metadata_identical_except_runtime": true,
+    "arrays_identical": true
+  },
+  {
+    "case": "polmann",
+    "file": "explicit_dz2.5_dt126.json",
+    "metadata_identical_except_runtime": true,
+    "arrays_identical": true
+  },
+  {
+    "case": "polmann",
+    "file": "explicit_dz2.5_dt42.json",
+    "metadata_identical_except_runtime": true,
+    "arrays_identical": true
+  },
+  {
+    "case": "polmann",
+    "file": "explicit_dz2.5_dt60.json",
+    "metadata_identical_except_runtime": true,
+    "arrays_identical": true
+  },
+  {
+    "case": "polmann",
+    "file": "explicit_dz2.5_dt90.json",
+    "metadata_identical_except_runtime": true,
+    "arrays_identical": true
+  },
+  {
+    "case": "polmann",
+    "file": "linimp_dz2.5_dt1.json",
+    "metadata_identical_except_runtime": true,
+    "arrays_identical": true
+  },
+  {
+    "case": "polmann",
+    "file": "linimp_dz2.5_dt270.json",
+    "metadata_identical_except_runtime": true,
+    "arrays_identical": true
+  },
+  {
+    "case": "polmann",
+    "file": "linimp_dz2.5_dt3000.json",
+    "metadata_identical_except_runtime": true,
+    "arrays_identical": true
+  },
+  {
+    "case": "polmann",
+    "file": "linimp_dz2.5_dt5400.json",
+    "metadata_identical_except_runtime": true,
+    "arrays_identical": true
+  },
+  {
+    "case": "polmann",
+    "file": "linimp_dz2.5_dt900.json",
+    "metadata_identical_except_runtime": true,
+    "arrays_identical": true
+  },
+  {
+    "case": "polmann",
+    "file": "lnewton_dz2.5_dt3000.json",
+    "metadata_identical_except_runtime": true,
+    "arrays_identical": true
+  },
+  {
+    "case": "polmann",
+    "file": "lnewton_dz2.5_dt5400.json",
+    "metadata_identical_except_runtime": true,
+    "arrays_identical": true
+  },
+  {
+    "case": "polmann",
+    "file": "lnewton_dz2.5_dt900.json",
+    "metadata_identical_except_runtime": true,
+    "arrays_identical": true
+  },
+  {
+    "case": "polmann",
+    "file": "lscheme_dz2.5_dt3000.json",
+    "metadata_identical_except_runtime": true,
+    "arrays_identical": true
+  },
+  {
+    "case": "polmann",
+    "file": "lscheme_dz2.5_dt5400.json",
+    "metadata_identical_except_runtime": true,
+    "arrays_identical": true
+  },
+  {
+    "case": "polmann",
+    "file": "lscheme_dz2.5_dt900.json",
+    "metadata_identical_except_runtime": true,
+    "arrays_identical": true
+  },
+  {
+    "case": "polmann",
+    "file": "modpicard_dz0.625_dt900.json",
+    "metadata_identical_except_runtime": true,
+    "arrays_identical": true
+  },
+  {
+    "case": "polmann",
+    "file": "modpicard_dz1.25_dt900.json",
+    "metadata_identical_except_runtime": true,
+    "arrays_identical": true
+  },
+  {
+    "case": "polmann",
+    "file": "modpicard_dz2.5_dt1.json",
+    "metadata_identical_except_runtime": true,
+    "arrays_identical": true
+  },
+  {
+    "case": "polmann",
+    "file": "modpicard_dz2.5_dt3000.json",
+    "metadata_identical_except_runtime": true,
+    "arrays_identical": true
+  },
+  {
+    "case": "polmann",
+    "file": "modpicard_dz2.5_dt5400.json",
+    "metadata_identical_except_runtime": true,
+    "arrays_identical": true
+  },
+  {
+    "case": "polmann",
+    "file": "modpicard_dz2.5_dt900.json",
+    "metadata_identical_except_runtime": true,
+    "arrays_identical": true
+  },
+  {
+    "case": "polmann",
+    "file": "newton_mixed_dz2.5_dt1.json",
+    "metadata_identical_except_runtime": true,
+    "arrays_identical": true
+  },
+  {
+    "case": "polmann",
+    "file": "newton_mixed_dz2.5_dt3000.json",
+    "metadata_identical_except_runtime": true,
+    "arrays_identical": true
+  },
+  {
+    "case": "polmann",
+    "file": "newton_mixed_dz2.5_dt5400.json",
+    "metadata_identical_except_runtime": true,
+    "arrays_identical": true
+  },
+  {
+    "case": "polmann",
+    "file": "newton_mixed_dz2.5_dt900.json",
+    "metadata_identical_except_runtime": true,
+    "arrays_identical": true
+  },
+  {
+    "case": "polmann",
+    "file": "newton_psi_dz2.5_dt1.json",
+    "metadata_identical_except_runtime": true,
+    "arrays_identical": true
+  },
+  {
+    "case": "polmann",
+    "file": "newton_psi_dz2.5_dt3000.json",
+    "metadata_identical_except_runtime": true,
+    "arrays_identical": true
+  },
+  {
+    "case": "polmann",
+    "file": "newton_psi_dz2.5_dt5400.json",
+    "metadata_identical_except_runtime": true,
+    "arrays_identical": true
+  },
+  {
+    "case": "polmann",
+    "file": "newton_psi_dz2.5_dt900.json",
+    "metadata_identical_except_runtime": true,
+    "arrays_identical": true
+  },
+  {
+    "case": "polmann",
+    "file": "picard_psi_dz2.5_dt1.json",
+    "metadata_identical_except_runtime": true,
+    "arrays_identical": true
+  },
+  {
+    "case": "polmann",
+    "file": "picard_psi_dz2.5_dt3000.json",
+    "metadata_identical_except_runtime": true,
+    "arrays_identical": true
+  },
+  {
+    "case": "polmann",
+    "file": "picard_psi_dz2.5_dt5400.json",
+    "metadata_identical_except_runtime": true,
+    "arrays_identical": true
+  },
+  {
+    "case": "polmann",
+    "file": "picard_psi_dz2.5_dt900.json",
+    "metadata_identical_except_runtime": true,
+    "arrays_identical": true
+  },
+  {
+    "case": "polmann",
+    "file": "ref0.json",
+    "metadata_identical_except_runtime": true,
+    "arrays_identical": true
+  },
+  {
+    "case": "polmann",
+    "file": "ref1.json",
+    "metadata_identical_except_runtime": true,
+    "arrays_identical": true
+  },
+  {
+    "case": "miller",
+    "file": "explicit_dz0.0125_dt0.001.json",
+    "metadata_identical_except_runtime": true,
+    "arrays_identical": true
+  },
+  {
+    "case": "miller",
+    "file": "linimp_dz0.0125_dt0.001.json",
+    "metadata_identical_except_runtime": true,
+    "arrays_identical": true
+  },
+  {
+    "case": "miller",
+    "file": "linimp_dz0.0125_dt0.002.json",
+    "metadata_identical_except_runtime": true,
+    "arrays_identical": true
+  },
+  {
+    "case": "miller",
+    "file": "linimp_dz0.0125_dt0.005.json",
+    "metadata_identical_except_runtime": true,
+    "arrays_identical": true
+  },
+  {
+    "case": "miller",
+    "file": "linimp_dz0.0125_dt0.01.json",
+    "metadata_identical_except_runtime": true,
+    "arrays_identical": true
+  },
+  {
+    "case": "miller",
+    "file": "lnewton_dz0.0125_dt0.001.json",
+    "metadata_identical_except_runtime": true,
+    "arrays_identical": true
+  },
+  {
+    "case": "miller",
+    "file": "lnewton_dz0.0125_dt0.002.json",
+    "metadata_identical_except_runtime": true,
+    "arrays_identical": true
+  },
+  {
+    "case": "miller",
+    "file": "lnewton_dz0.0125_dt0.005.json",
+    "metadata_identical_except_runtime": true,
+    "arrays_identical": true
+  },
+  {
+    "case": "miller",
+    "file": "lnewton_dz0.0125_dt0.01.json",
+    "metadata_identical_except_runtime": true,
+    "arrays_identical": true
+  },
+  {
+    "case": "miller",
+    "file": "lscheme_dz0.0125_dt0.001.json",
+    "metadata_identical_except_runtime": true,
+    "arrays_identical": true
+  },
+  {
+    "case": "miller",
+    "file": "lscheme_dz0.0125_dt0.002.json",
+    "metadata_identical_except_runtime": true,
+    "arrays_identical": true
+  },
+  {
+    "case": "miller",
+    "file": "lscheme_dz0.0125_dt0.005.json",
+    "metadata_identical_except_runtime": true,
+    "arrays_identical": true
+  },
+  {
+    "case": "miller",
+    "file": "lscheme_dz0.0125_dt0.01.json",
+    "metadata_identical_except_runtime": true,
+    "arrays_identical": true
+  },
+  {
+    "case": "miller",
+    "file": "modpicard_dz0.0125_dt0.001.json",
+    "metadata_identical_except_runtime": true,
+    "arrays_identical": true
+  },
+  {
+    "case": "miller",
+    "file": "modpicard_dz0.0125_dt0.002.json",
+    "metadata_identical_except_runtime": true,
+    "arrays_identical": true
+  },
+  {
+    "case": "miller",
+    "file": "modpicard_dz0.0125_dt0.005.json",
+    "metadata_identical_except_runtime": true,
+    "arrays_identical": true
+  },
+  {
+    "case": "miller",
+    "file": "modpicard_dz0.0125_dt0.01.json",
+    "metadata_identical_except_runtime": true,
+    "arrays_identical": true
+  },
+  {
+    "case": "miller",
+    "file": "newton_mixed_dz0.0125_dt0.001.json",
+    "metadata_identical_except_runtime": true,
+    "arrays_identical": true
+  },
+  {
+    "case": "miller",
+    "file": "newton_mixed_dz0.0125_dt0.002.json",
+    "metadata_identical_except_runtime": true,
+    "arrays_identical": true
+  },
+  {
+    "case": "miller",
+    "file": "newton_mixed_dz0.0125_dt0.005.json",
+    "metadata_identical_except_runtime": true,
+    "arrays_identical": true
+  },
+  {
+    "case": "miller",
+    "file": "newton_mixed_dz0.0125_dt0.01.json",
+    "metadata_identical_except_runtime": true,
+    "arrays_identical": true
+  },
+  {
+    "case": "miller",
+    "file": "newton_psi_dz0.0125_dt0.001.json",
+    "metadata_identical_except_runtime": true,
+    "arrays_identical": true
+  },
+  {
+    "case": "miller",
+    "file": "newton_psi_dz0.0125_dt0.002.json",
+    "metadata_identical_except_runtime": true,
+    "arrays_identical": true
+  },
+  {
+    "case": "miller",
+    "file": "newton_psi_dz0.0125_dt0.005.json",
+    "metadata_identical_except_runtime": true,
+    "arrays_identical": true
+  },
+  {
+    "case": "miller",
+    "file": "newton_psi_dz0.0125_dt0.01.json",
+    "metadata_identical_except_runtime": true,
+    "arrays_identical": true
+  },
+  {
+    "case": "miller",
+    "file": "picard_psi_dz0.0125_dt0.001.json",
+    "metadata_identical_except_runtime": true,
+    "arrays_identical": true
+  },
+  {
+    "case": "miller",
+    "file": "picard_psi_dz0.0125_dt0.002.json",
+    "metadata_identical_except_runtime": true,
+    "arrays_identical": true
+  },
+  {
+    "case": "miller",
+    "file": "picard_psi_dz0.0125_dt0.005.json",
+    "metadata_identical_except_runtime": true,
+    "arrays_identical": true
+  },
+  {
+    "case": "miller",
+    "file": "picard_psi_dz0.0125_dt0.01.json",
+    "metadata_identical_except_runtime": true,
+    "arrays_identical": true
+  },
+  {
+    "case": "miller",
+    "file": "ref0.json",
+    "metadata_identical_except_runtime": true,
+    "arrays_identical": true
+  },
+  {
+    "case": "miller",
+    "file": "ref1.json",
+    "metadata_identical_except_runtime": true,
+    "arrays_identical": true
+  },
+  {
+    "case": "lehmann",
+    "file": "linimp_dz2_dt1.json",
+    "metadata_identical_except_runtime": true,
+    "arrays_identical": true
+  },
+  {
+    "case": "lehmann",
+    "file": "lnewton_dz2_dt1.json",
+    "metadata_identical_except_runtime": true,
+    "arrays_identical": true
+  },
+  {
+    "case": "lehmann",
+    "file": "lscheme_dz2_dt1.json",
+    "metadata_identical_except_runtime": true,
+    "arrays_identical": true
+  },
+  {
+    "case": "lehmann",
+    "file": "modpicard_dz10_dt1.json",
+    "metadata_identical_except_runtime": true,
+    "arrays_identical": true
+  },
+  {
+    "case": "lehmann",
+    "file": "modpicard_dz1_dt1.json",
+    "metadata_identical_except_runtime": true,
+    "arrays_identical": true
+  },
+  {
+    "case": "lehmann",
+    "file": "modpicard_dz2_dt1.json",
+    "metadata_identical_except_runtime": true,
+    "arrays_identical": true
+  },
+  {
+    "case": "lehmann",
+    "file": "modpicard_dz5_dt1.json",
+    "metadata_identical_except_runtime": true,
+    "arrays_identical": true
+  },
+  {
+    "case": "lehmann",
+    "file": "newton_mixed_dz2_dt1.json",
+    "metadata_identical_except_runtime": true,
+    "arrays_identical": true
+  },
+  {
+    "case": "lehmann",
+    "file": "newton_psi_dz2_dt1.json",
+    "metadata_identical_except_runtime": true,
+    "arrays_identical": true
+  },
+  {
+    "case": "lehmann",
+    "file": "picard_psi_dz10_dt1.json",
+    "metadata_identical_except_runtime": true,
+    "arrays_identical": true
+  },
+  {
+    "case": "lehmann",
+    "file": "picard_psi_dz1_dt1.json",
+    "metadata_identical_except_runtime": true,
+    "arrays_identical": true
+  },
+  {
+    "case": "lehmann",
+    "file": "picard_psi_dz2_dt1.json",
+    "metadata_identical_except_runtime": true,
+    "arrays_identical": true
+  },
+  {
+    "case": "lehmann",
+    "file": "picard_psi_dz5_dt1.json",
+    "metadata_identical_except_runtime": true,
+    "arrays_identical": true
+  },
+  {
+    "case": "lehmann",
+    "file": "ref0.json",
+    "metadata_identical_except_runtime": true,
+    "arrays_identical": true
+  },
+  {
+    "case": "lehmann",
+    "file": "ref1.json",
+    "metadata_identical_except_runtime": true,
+    "arrays_identical": true
+  },
+  {
+    "case": "ireson",
+    "file": "linimp_dz0.05_dt1.json",
+    "metadata_identical_except_runtime": true,
+    "arrays_identical": true
+  },
+  {
+    "case": "ireson",
+    "file": "lnewton_dz0.05_dt1.json",
+    "metadata_identical_except_runtime": true,
+    "arrays_identical": true
+  },
+  {
+    "case": "ireson",
+    "file": "lscheme_dz0.05_dt1.json",
+    "metadata_identical_except_runtime": true,
+    "arrays_identical": true
+  },
+  {
+    "case": "ireson",
+    "file": "modpicard_dz0.05_dt1.json",
+    "metadata_identical_except_runtime": true,
+    "arrays_identical": true
+  },
+  {
+    "case": "ireson",
+    "file": "newton_mixed_dz0.05_dt1.json",
+    "metadata_identical_except_runtime": true,
+    "arrays_identical": true
+  },
+  {
+    "case": "ireson",
+    "file": "newton_psi_dz0.05_dt1.json",
+    "metadata_identical_except_runtime": true,
+    "arrays_identical": true
+  },
+  {
+    "case": "ireson",
+    "file": "picard_psi_dz0.05_dt1.json",
+    "metadata_identical_except_runtime": true,
+    "arrays_identical": true
+  },
+  {
+    "case": "ireson",
+    "file": "ref0.json",
+    "metadata_identical_except_runtime": true,
+    "arrays_identical": true
+  },
+  {
+    "case": "ireson",
+    "file": "ref1.json",
+    "metadata_identical_except_runtime": true,
+    "arrays_identical": true
+  }
+]

@@ -1,0 +1,21 @@
+{
+ "case": "ireson",
+ "method": "lscheme",
+ "dz": 0.05,
+ "dt": 1.0,
+ "status": "completed",
+ "reason": "",
+ "t_end": 3652.0,
+ "runtime": 5.38555819200019,
+ "it_total": 53394,
+ "it_mean": 14.620481927710843,
+ "it_max": 29,
+ "n_steps": 3652,
+ "dS": 0.0065244708777713045,
+ "Qnet": 0.006523901686144383,
+ "MB": 1.0000872471190254,
+ "epsB": -5.691916269215391e-07,
+ "MB_endstep": 1.0000872471190254,
+ "length_unit": "m",
+ "time_unit": "day"
+}

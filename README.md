@@ -1,58 +1,50 @@
-# 1D Richards Equation – Benchmarking Numerical Solvers
+# Benchmarking numerical solvers for the 1-D Richards equation
 
-This repository contains Jupyter notebooks that benchmark six numerical schemes for solving the 1D Richards Equation across five classic test cases. These benchmark tests are well-established in the literature and were selected for their diversity of boundary/initial conditions, flow regimes, and numerical challenges.
+Python implementations for the study *Benchmarking numerical solvers for the 1-D Richards' equation: accuracy, stability and practical guidance for subsurface modelling* by Juan Pablo De la Fuente Cusicanqui, Vassilis Glenis and Chris Kilsby.
 
----
+## Revised implementation
 
-## 📊 Benchmarks
+[`revised_solver/`](revised_solver/) contains the implementation, two reference resolutions for each benchmark, saved results and figure scripts supplied for manuscript VZJ-2026-05-0062-R. Eight schemes are compared. Its README gives the reproduction commands. The original numerical kernel and archived outputs are preserved in this prepared package.
 
-| Benchmark | Description                    | Methods Included               | Reference |
-|----------|-------------------------------|-------------------------------|-----------|
-| **Warrick** | Ponded infiltration with abrupt initial conditions | Explicit, Implicit | Warrick et al. (1991), DOI: [10.2136/sssaj1991.03615995005500050006x](https://doi.org/10.1023/B:ENVR.0000046450.62059.62) |
-| **Polmann** | Dry initial conditions with rainfall application | All methods | Celia et al. (1990), DOI: [10.1016/0022-1694(91)90075-F](https://doi.org/10.1029/WR026i007p01483) |
-| **Miller** | Wetting front: constant pressure head ψ = -z | Picard & Newton (ψ and mixed form) | Miller et al. (1998), DOI: [10.1029/98WR01936](https://doi.org/10.1029/98WR01673) |
-| **Lehmann** | Transient fluxes over a 60-day time series | Picard (ψ and mixed form) | Lehmann et al. (1998), DOI: [10.1029/97WR03468](https://doi.org/10.1023/A:1006555107450) |
-| **Ireson** | Realistic 10-year daily rainfall infiltration | Picard (ψ and mixed form) | Ireson et al. (2023), DOI: [10.1016/j.jhydrol.2005.11.043](https://doi.org/10.5194/gmd-16-659-2023) |
+[`notebooks/`](notebooks/) contains the original implementations, retained for historical comparison. These are not the implementation used for the revised results. Changes include a complete Newton Jacobian, explicit detection of failed iterations, a common boundary treatment, scheme-consistent mass balance calculations and additional solvers. See [`revised_solver/ARCHIVE_NOTES.md`](revised_solver/ARCHIVE_NOTES.md) for qualifications that matter when interpreting the outputs.
 
-Each benchmark tests different aspects of numerical performance (nonlinearity, mass conservation, convergence) and provides a robust basis for comparing solvers.
+## Benchmarks
 
----
+| Benchmark | Revised configuration | Source |
+| --- | --- | --- |
+| Warrick | Ponded infiltration into a partially wet column, with free drainage at the base. | Warrick, A. W. (2003). *Soil water dynamics*. Oxford University Press. https://doi.org/10.1093/oso/9780195126051.001.0001 |
+| Polmann | Infiltration into dry soil with prescribed pressure head at both ends. | Celia, M. A., Bouloutas, E. T., & Zarba, R. L. (1990). A general mass-conservative numerical solution for the unsaturated flow equation. *Water Resources Research, 26*(7), 1483–1496. https://doi.org/10.1029/WR026i007p01483 |
+| Miller | Ponding above a hydrostatic initial profile, with a fixed water table at the base. | Miller, C. T., Williams, G. A., Kelley, C. T., & Tocci, M. D. (1998). Robust solution of Richards' equation for nonuniform porous media. *Water Resources Research, 34*(10), 2599–2610. https://doi.org/10.1029/98WR01673 |
+| Lehmann | Daily infiltration and evaporation fluxes over initially dry soil, with free drainage. | Lehmann, F., & Ackerer, Ph. (1998). Comparison of iterative methods for improved solutions of the fluid flow equation in partially saturated porous media. *Transport in Porous Media, 31*, 275–292. https://doi.org/10.1023/A:1006555107450 |
+| Ireson | A ten-year rainfall record over a freely draining soil column. | Ireson, A. M., Spiteri, R. J., Clark, M. P., & Mathias, S. A. (2023). A simple, efficient, mass-conservative approach to solving Richards' equation (openRE, v1.0). *Geoscientific Model Development, 16*, 659–677. https://doi.org/10.5194/gmd-16-659-2023 |
 
-## 📁 Structure
+## Reproduction
 
-- `notebooks/` – Organised by benchmark
-- `results/` – Placeholder folders for output figures/tables
-- `environment.yml` – Reproducible conda environment
-- `.gitignore` – Prevents tracking of auto-generated files
+Use Python 3.10 or later in an isolated environment. From the repository root, run
 
----
-
-## 🚀 Getting Started
-
-To run the notebooks locally:
-
-```bash
-conda env create -f environment.yml
-conda activate richards-benchmark
-jupyter lab
+```text
+python -m venv .venv
 ```
 
----
+On Windows Command Prompt, activate it with `.venv\Scripts\activate`. On Linux or macOS, use `source .venv/bin/activate`.
 
-## 📌 Notes
+```text
+python -m pip install -r revised_solver/requirements.txt
+cd revised_solver
+python -m unittest -v test_numerics
+python reproduce.py --output reproductions/laptop
+```
 
-- All solvers are implemented in Python and benchmarked using consistent initial states and boundary conditions.
-- Numerical methods include explicit, non-iterative implicit, and iterative implicit (Picard and Newton) approaches.
-- A focus is placed on modular implementation and transparency of source code.
+The new command preserves `results/`, reruns all ordinary configurations, copies the archived references, exports a combined CSV, regenerates Figures 2–15 and records the environment. Add `--recompute-references` to rerun both reference resolutions. Existing output directories are never overwritten. Runtime depends on the machine. Use a different output name for each timing repetition.
 
----
+The complete repository is needed for the Ireson rainfall and HYDRUS files in `notebooks/ireson/`. The legacy notebook environment in `environment.yml` is separate from the revised solver requirements.
 
-## 📄 License
+## Citation and archive
 
-MIT License
+The original notebook archive is **v1.0.1**, DOI https://doi.org/10.5281/zenodo.16806592. Its all-versions DOI is https://doi.org/10.5281/zenodo.16806591. Cite the specific new version DOI for the revised study after publication. No DOI for version 2.0.0 has been assigned in this prepared package.
 
----
+`CITATION.cff` prepares the three-author metadata for the proposed version 2.0.0. ORCIDs are omitted until confirmed. The release sequence is in [`release/RELEASE_CHECKLIST.md`](release/RELEASE_CHECKLIST.md).
 
-## 🤝 Contributions
+## Licence decision before release
 
-Pull requests and feedback are welcome. Please open an issue if you have suggestions for improvements or additional test cases.
+The previous README stated MIT, but no licence file was present. The existing Zenodo record v1.0.1 lists CC BY 4.0. The authors need to settle the intended licence and its scope before publishing version 2.0.0. A proposed MIT text is in `release/LICENSE_MIT_proposed.txt`; it is not an adopted root licence. Existing third-party attribution and applicable input-data terms must be preserved.

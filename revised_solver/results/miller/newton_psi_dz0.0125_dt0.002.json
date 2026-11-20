@@ -1,0 +1,21 @@
+{
+ "case": "miller",
+ "method": "newton_psi",
+ "dz": 0.0125,
+ "dt": 0.002,
+ "status": "failed",
+ "reason": "no convergence in 10000 iterations (scaled residual 2.96e+02) at t = 0.002 day (step 2)",
+ "t_end": 0.002,
+ "runtime": 3.632861766999895,
+ "it_total": 805,
+ "it_mean": 805.0,
+ "it_max": 805,
+ "n_steps": 1,
+ "dS": 0.002600036718787946,
+ "Qnet": 0.14392824833883322,
+ "MB": 0.018064811798910993,
+ "epsB": 0.14132821162004527,
+ "MB_endstep": 0.018064811798910993,
+ "length_unit": "m",
+ "time_unit": "day"
+}

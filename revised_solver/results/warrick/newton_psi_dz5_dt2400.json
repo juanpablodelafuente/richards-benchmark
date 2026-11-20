@@ -1,0 +1,21 @@
+{
+ "case": "warrick",
+ "method": "newton_psi",
+ "dz": 5.0,
+ "dt": 2400,
+ "status": "completed",
+ "reason": "",
+ "t_end": 360000.0,
+ "runtime": 0.11672795999993468,
+ "it_total": 610,
+ "it_mean": 4.066666666666666,
+ "it_max": 6,
+ "n_steps": 150,
+ "dS": 9.241949895782007,
+ "Qnet": 9.561747193670135,
+ "MB": 0.9665545123280572,
+ "epsB": 0.31979729788812783,
+ "MB_endstep": 0.9665545123280572,
+ "length_unit": "cm",
+ "time_unit": "s"
+}

@@ -1,0 +1,21 @@
+{
+ "case": "warrick",
+ "method": "lscheme",
+ "dz": 5.0,
+ "dt": 900,
+ "status": "completed",
+ "reason": "",
+ "t_end": 360000.0,
+ "runtime": 2.0614761360000102,
+ "it_total": 16301,
+ "it_mean": 40.7525,
+ "it_max": 49,
+ "n_steps": 400,
+ "dS": 9.356358991834568,
+ "Qnet": 9.356361212211151,
+ "MB": 0.9999997626880224,
+ "epsB": 2.2203765830397515e-06,
+ "MB_endstep": 0.9999997626880224,
+ "length_unit": "cm",
+ "time_unit": "s"
+}

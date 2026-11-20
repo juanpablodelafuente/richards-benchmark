@@ -1,0 +1,21 @@
+{
+ "case": "polmann",
+ "method": "modpicard",
+ "dz": 1.25,
+ "dt": 900,
+ "status": "completed",
+ "reason": "",
+ "t_end": 21600.0,
+ "runtime": 0.09267917600004694,
+ "it_total": 609,
+ "it_mean": 25.375,
+ "it_max": 36,
+ "n_steps": 24,
+ "dS": 1.7029118239631522,
+ "Qnet": 1.702911824077557,
+ "MB": 0.9999999999328182,
+ "epsB": 1.1440470792933866e-10,
+ "MB_endstep": 0.9999999999328182,
+ "length_unit": "cm",
+ "time_unit": "s"
+}

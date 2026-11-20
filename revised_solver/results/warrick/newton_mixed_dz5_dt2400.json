@@ -1,0 +1,21 @@
+{
+ "case": "warrick",
+ "method": "newton_mixed",
+ "dz": 5.0,
+ "dt": 2400,
+ "status": "completed",
+ "reason": "",
+ "t_end": 360000.0,
+ "runtime": 0.11532554599989453,
+ "it_total": 602,
+ "it_mean": 4.013333333333334,
+ "it_max": 5,
+ "n_steps": 150,
+ "dS": 9.339376909176536,
+ "Qnet": 9.339376909176536,
+ "MB": 1.0,
+ "epsB": 0.0,
+ "MB_endstep": 1.0,
+ "length_unit": "cm",
+ "time_unit": "s"
+}

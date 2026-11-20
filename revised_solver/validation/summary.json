@@ -1,0 +1,75 @@
+[
+  {
+    "case": "warrick",
+    "runs": 22,
+    "statuses": {
+      "completed": 22
+    },
+    "max_array_difference": {
+      "z": 0.0,
+      "psi": 0.0,
+      "theta": 0.0,
+      "daily_S": 0.0
+    },
+    "metadata_differences": []
+  },
+  {
+    "case": "polmann",
+    "runs": 36,
+    "statuses": {
+      "completed": 33,
+      "failed": 3
+    },
+    "max_array_difference": {
+      "z": 0.0,
+      "psi": 0.0,
+      "theta": 0.0,
+      "daily_S": 0.0
+    },
+    "metadata_differences": []
+  },
+  {
+    "case": "miller",
+    "runs": 31,
+    "statuses": {
+      "failed": 18,
+      "completed": 13
+    },
+    "max_array_difference": {
+      "z": 0.0,
+      "psi": 0.0,
+      "theta": 0.0,
+      "daily_S": 0.0
+    },
+    "metadata_differences": []
+  },
+  {
+    "case": "lehmann",
+    "runs": 15,
+    "statuses": {
+      "completed": 8,
+      "failed": 7
+    },
+    "max_array_difference": {
+      "z": 0.0,
+      "psi": 0.0,
+      "theta": 0.0,
+      "daily_S": 0.0
+    },
+    "metadata_differences": []
+  },
+  {
+    "case": "ireson",
+    "runs": 9,
+    "statuses": {
+      "completed": 9
+    },
+    "max_array_difference": {
+      "z": 0.0,
+      "psi": 0.0,
+      "theta": 0.0,
+      "daily_S": 0.0
+    },
+    "metadata_differences": []
+  }
+]

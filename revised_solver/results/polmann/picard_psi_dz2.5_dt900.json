@@ -1,0 +1,21 @@
+{
+ "case": "polmann",
+ "method": "picard_psi",
+ "dz": 2.5,
+ "dt": 900,
+ "status": "completed",
+ "reason": "",
+ "t_end": 21600.0,
+ "runtime": 0.10827794700003324,
+ "it_total": 741,
+ "it_mean": 30.875,
+ "it_max": 190,
+ "n_steps": 24,
+ "dS": 1.4939044487124775,
+ "Qnet": 2.287917657074554,
+ "MB": 0.6529537652253877,
+ "epsB": 0.7940132083620766,
+ "MB_endstep": 0.6529537652253877,
+ "length_unit": "cm",
+ "time_unit": "s"
+}

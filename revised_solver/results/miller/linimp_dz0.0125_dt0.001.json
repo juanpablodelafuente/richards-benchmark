@@ -1,0 +1,21 @@
+{
+ "case": "miller",
+ "method": "linimp",
+ "dz": 0.0125,
+ "dt": 0.001,
+ "status": "completed",
+ "reason": "",
+ "t_end": 0.18,
+ "runtime": 0.04325496100000237,
+ "it_total": 180,
+ "it_mean": 1.0,
+ "it_max": 1,
+ "n_steps": 180,
+ "dS": 0.46799847253748095,
+ "Qnet": 5.809706135942438e-06,
+ "MB": 80554.5859956931,
+ "epsB": -0.467992662831345,
+ "MB_endstep": 80301.57445034137,
+ "length_unit": "m",
+ "time_unit": "day"
+}
