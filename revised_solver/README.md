@@ -11,7 +11,6 @@ This directory contains the implementation, reference solutions, results and fig
 | `reproduce.py` | Safe reproduction, environment recording, comparisons, CSV export and figures. |
 | `test_numerics.py` | Six checks of retention derivatives, maximum capacity, Newton Jacobians, the L update, conservation and agreement of converged mixed solutions. |
 | `make_figures.py` | Figures 2–15 from saved profiles and summaries. |
-| `verify.py` | Selected diagnostic comparisons with original notebooks. Prints differences without pass/fail assertions. |
 | `results/` | Supplied reference and ordinary runs as JSON/NPZ pairs, plus summaries. |
 | `tables/all_results.csv` | Supplied combined table of 109 rows. |
 | `figures/` | Supplied Figures 1–15. Figure 1 is a separately supplied schematic. |
