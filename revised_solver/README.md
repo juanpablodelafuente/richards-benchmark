@@ -15,7 +15,6 @@ This directory contains the implementation, reference solutions, results and fig
 | `results/` | Supplied reference and ordinary runs as JSON/NPZ pairs, plus summaries. |
 | `tables/all_results.csv` | Supplied combined table of 109 rows. |
 | `figures/` | Supplied Figures 1–15. Figure 1 is a separately supplied schematic. |
-| `ARCHIVE_NOTES.md` | Numerical conventions, limitations and manuscript clarifications. |
 | `manuscript_environment.json` | Computing environment reported in the manuscript supplied by the author on 20 November 2026. |
 
 ## Reproduction
