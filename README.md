@@ -4,9 +4,9 @@ Python implementations for the study *Benchmarking numerical solvers for the 1-D
 
 ## Revised implementation
 
-[`revised_solver/`](revised_solver/) contains the implementation, two reference resolutions for each benchmark, saved results and figure scripts supplied for manuscript VZJ-2026-05-0062-R. Eight schemes are compared. Its README gives the reproduction commands. The original numerical kernel and archived outputs are preserved in this prepared package.
+[`final_solver/`](final_solver/) contains the implementation, two reference resolutions for each benchmark, saved results and figure scripts supplied for manuscript VZJ-2026-05-0062-R. Eight schemes are compared. Its README gives the reproduction commands. The original numerical kernel and archived outputs are preserved in this prepared package.
 
-[`notebooks/`](notebooks/) contains the original implementations, retained for historical comparison. These are not the implementation used for the revised results. Changes include a complete Newton Jacobian, explicit detection of failed iterations, a common boundary treatment, scheme-consistent mass balance calculations and additional solvers. See [`revised_solver/ARCHIVE_NOTES.md`](revised_solver/ARCHIVE_NOTES.md) for qualifications that matter when interpreting the outputs.
+[`notebooks/`](notebooks/) contains the original implementations, retained for historical comparison. These are not the implementation used for the revised results. Changes include a complete Newton Jacobian, explicit detection of failed iterations, a common boundary treatment, scheme-consistent mass balance calculations and additional solvers. See [`final_solver/VALIDATION_REPORT.md`](final_solver/VALIDATION_REPORT.md) for qualifications that matter when interpreting the outputs.
 
 ## Benchmarks
 
@@ -29,8 +29,8 @@ python -m venv .venv
 On Windows Command Prompt, activate it with `.venv\Scripts\activate`. On Linux or macOS, use `source .venv/bin/activate`.
 
 ```text
-python -m pip install -r revised_solver/requirements.txt
-cd revised_solver
+python -m pip install -r final_solver/requirements.txt
+cd final_solver
 python -m unittest -v test_numerics
 python reproduce.py --output reproductions/laptop
 ```
@@ -41,9 +41,9 @@ The complete repository is needed for the Ireson rainfall and HYDRUS files in `n
 
 ## Computing environment reported in the manuscript
 
-The computational-cost paragraph of the revised manuscript reports an Intel 12th Gen Core i7-1265U processor, 32 GB RAM, 64-bit Windows 10 Enterprise, Python 3.15.2, NumPy 2.5.4 and SciPy 1.18.1. These details were supplied by the author on 20 November 2026 and are recorded in [`revised_solver/manuscript_environment.json`](revised_solver/manuscript_environment.json).
+The computational-cost paragraph of the revised manuscript reports an Intel 12th Gen Core i7-1265U processor, 32 GB RAM, 64-bit Windows 10 Enterprise, Python 3.15.2, NumPy 2.5.4 and SciPy 1.18.1. These details were supplied by the author on 20 November 2026 and are recorded in [`final_solver/manuscript_environment.json`](final_solver/manuscript_environment.json).
 
-The separate reproduction environment is recorded in `revised_solver/validation/environment.json`. Its timings are validation measurements and have not replaced the supplied manuscript runtimes.
+The separate reproduction environment is recorded in `final_solver/validation/environment.json`. Its timings are validation measurements and have not replaced the supplied manuscript runtimes.
 
 ## Citation and archive
 
@@ -53,6 +53,6 @@ The original notebook archive is **v1.0.1**, DOI https://doi.org/10.5281/zenodo.
 
 ## Licence
 
-The revised Python code in `revised_solver/`, including the added reproduction and verification utilities, is licensed under the [MIT License](LICENSE), selected by the author on 20 November 2026.
+The revised Python code in `final_solver/`, including the added reproduction and verification utilities, is licensed under the [MIT License](LICENSE), selected by the author on 20 November 2026.
 
 This declaration applies to the revised code. Original notebooks, third-party inputs and other material retain any separately applicable terms and attribution. The existing Zenodo v1.0.1 record lists CC BY 4.0; adopting MIT for the revised code does not change that earlier record.

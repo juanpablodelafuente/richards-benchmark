@@ -14,7 +14,7 @@ All 103 ordinary run configurations and all ten reference runs were independentl
 | Lehmann | 15 | 8 | 7 | Exact match |
 | Ireson | 9 | 9 | 0 | Exact match |
 
-The 28 failures are reproduced benchmark outcomes, not failures of the reproduction process. `completed` is a termination status and does not establish physical admissibility or stability. In particular, the two oscillatory Warrick explicit results exceed saturation, as documented in `ARCHIVE_NOTES.md`.
+The 28 failures are reproduced benchmark outcomes, not failures of the reproduction process. `completed` is a termination status and does not establish physical admissibility or stability. In particular, the two oscillatory Warrick explicit results exceed saturation.
 
 All 109 supplied combined-CSV rows agree with their summary JSON values. Recomputing the profile errors from the supplied NPZ files reproduces the summary errors. The new reproduction exported a combined CSV and regenerated Figures 2–15 successfully. Figure 1 has no generating script in this package. A visual check of the regenerated Figure 9 showed crowded annotations for closely spaced points; these should be checked in the final publication layout. All-figure execution is not a claim of a complete visual audit of the final manuscript PDF.
 
@@ -47,6 +47,8 @@ Exact agreement was observed in this reproduction. It is not a guarantee of exac
 
 252 supplied files other than the revised README were checked and preserved byte for byte, including the numerical kernel, original run and plotting scripts, requirements, all results, the combined CSV and figures. `archived_checksums.sha256` records their hashes. Original GitHub notebooks and input files are unchanged. Additional reproduction tools and documentation are separate.
 
+On 20 November 2026 the implementation directory was renamed from `revised_solver` to `final_solver`. The supplied numerical files and their relative checksum paths are unchanged. The historical validation logs and environment record retain the paths and source hashes recorded during that run.
+
 ## Items to reconcile before publication
 
 1. Define the RMSE sum over the actual stored unknowns. Interior vertex-grid weights sum to H − Δz, while cell-grid weights sum to H.
@@ -56,11 +58,11 @@ Exact agreement was observed in this reproduction. It is not a guarantee of exac
 5. Treat explicit oversaturation as an inadmissible comparison outcome. Interpret failure counters as accepted-step information, with the documented dummy entry at first-step failure.
 6. Check the final manuscript and response letter against the chosen archived version. The author has selected MIT for the revised code and supplied the manuscript timing environment.
 
-Most of these are specific documentation corrections if the supplied numerical implementation is retained. If the storage convention, saturated capacity or line-search acceptance rule is changed, a new checked numerical run is needed. Suggested manuscript wording and exact functions are in `ARCHIVE_NOTES.md`.
+Most of these are specific documentation corrections if the supplied numerical implementation is retained. If the storage convention, saturated capacity or line-search acceptance rule is changed, a new checked numerical run is needed.
 
 ## Access and release status
 
-During initial preparation, the GitHub repository was readable but creating a branch returned HTTP 403, `Resource not accessible by integration`, and a normal Git push lacked authenticated credentials. After the repository authorisation was updated on 19 November 2026, write access was verified by creating `prepare-v2-archive`. This branch contains the preparation for review. No release, Zenodo record or ORCID account has been published or changed by this preparation.
+During initial preparation, the GitHub repository was readable but creating a branch returned HTTP 403, `Resource not accessible by integration`, and a normal Git push lacked authenticated credentials. After the repository authorisation was updated on 19 November 2026, write access was verified by creating `prepare-v2-archive`. The preparation branch was subsequently renamed to `Richards_solvers_assessment`, and the original pull request #1 was closed without merging. No release, Zenodo record or ORCID account has been published or changed by this preparation.
 
 The existing Zenodo public metadata identify DOI `10.5281/zenodo.16806592` as v1.0.1, with concept DOI `10.5281/zenodo.16806591`, creator `JP_delaf` and licence CC BY 4.0. On 20 November 2026 the author selected MIT for the revised code. The standard text is now in the root `LICENSE`, `CITATION.cff` declares MIT, and the README explains its scope. This does not alter the earlier Zenodo record or separately applicable third-party terms.
 

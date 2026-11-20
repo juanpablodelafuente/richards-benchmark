@@ -2,10 +2,10 @@
 
 ## Before release
 
-1. Read `revised_solver/ARCHIVE_NOTES.md` and the validation report. Align the final manuscript with the actual storage, RMSE, saturation and line-search conventions.
+1. Read `final_solver/VALIDATION_REPORT.md`. Align the final manuscript with the actual storage, RMSE, saturation and line-search conventions.
 2. The revised code is licensed under MIT, as selected by the author on 20 November 2026. The root `LICENSE`, README and `CITATION.cff` now record this choice. Preserve the stated scope, third-party attribution and separately applicable terms; the earlier Zenodo v1.0.1 record remains unchanged.
 3. Confirm the authors in `CITATION.cff`. Add only verified ORCIDs. Vassilis Glenis also has a Willis Research Network affiliation in the latest available manuscript; confirm its representation in the archive.
-4. The manuscript's reported computing environment is recorded in `revised_solver/manuscript_environment.json` and its README. Retain the supplied runtimes with that description. A fresh timing exercise is optional and can use `python reproduce.py --output reproductions/laptop`. Inspect `comparison.json` and `environment.json` before adopting any new measurements. References are copied unless `--recompute-references` is selected.
+4. The manuscript's reported computing environment is recorded in `final_solver/manuscript_environment.json` and its README. Retain the supplied runtimes with that description. A fresh timing exercise is optional and can use `python reproduce.py --output reproductions/laptop`. Inspect `comparison.json` and `environment.json` before adopting any new measurements. References are copied unless `--recompute-references` is selected.
 5. If new results, tables or figures are adopted, use a separate checked commit with the measured environment and update every affected manuscript value. Check the final manuscript PDF and response-letter line references before submission.
 6. Merge preparation changes only after these decisions and checks. Do not publish v2.0.0 from an unfinished preparation branch.
 

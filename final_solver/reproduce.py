@@ -1,6 +1,6 @@
 """Reproduce the archived benchmark results without replacing them.
 
-Examples (from revised_solver):
+Examples (from final_solver):
     python reproduce.py --output reproductions/laptop
     python reproduce.py --output reproductions/check --cases polmann --no-figures
     python reproduce.py --output reproductions/full --recompute-references
