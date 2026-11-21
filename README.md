@@ -6,7 +6,7 @@ Python implementations for the study *Benchmarking numerical solvers for the 1-D
 
 [`final_solver/`](final_solver/) contains the implementation, two reference resolutions for each benchmark, saved results and figure scripts supplied for manuscript VZJ-2026-05-0062-R. Eight schemes are compared. Its README gives the reproduction commands. The original numerical kernel and archived outputs are preserved in this prepared package.
 
-[`notebooks/`](notebooks/) contains the original implementations, retained for historical comparison. These are not the implementation used for the revised results. Changes include a complete Newton Jacobian, explicit detection of failed iterations, a common boundary treatment, scheme-consistent mass balance calculations and additional solvers. See [`final_solver/VALIDATION_REPORT.md`](final_solver/VALIDATION_REPORT.md) for qualifications that matter when interpreting the outputs.
+[`notebooks/`](notebooks/) contains the original implementations, retained for historical comparison. These are not the implementation used for the revised results. Changes include a complete Newton Jacobian, explicit detection of failed iterations, a common boundary treatment, scheme-consistent mass balance calculations and additional solvers.
 
 ## Benchmarks
 

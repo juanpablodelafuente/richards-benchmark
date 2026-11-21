@@ -4,11 +4,10 @@ This package combines the original GitHub repository with the supplied revised s
 
 ## What to do
 
-1. Read `final_solver/VALIDATION_REPORT.md` for the completed checks and the implementation details to reconcile with the final manuscript.
-2. The revised code now uses MIT, as authorised by the author on 20 November 2026. The final text is in `LICENSE`, and the root README states its scope.
-3. The manuscript's reported computing environment is recorded in `final_solver/manuscript_environment.json`. The supplied runtimes are retained. A new timing exercise is optional; the separate reproduction command records its own environment without deleting the archive.
-4. The prepared files are on the `Richards_solvers_assessment` branch. The earlier pull request #1 was closed without merging after the branch was renamed. Create a pull request from `Richards_solvers_assessment` into `main`, then review and merge it when the manuscript and archive are ready.
-5. Use `release/RELEASE_CHECKLIST.md` to connect Zenodo and publish the final checked version.
+1. The revised code now uses MIT, as authorised by the author on 20 November 2026. The final text is in `LICENSE`, and the root README states its scope.
+2. The manuscript's reported computing environment is recorded in `final_solver/manuscript_environment.json`. The supplied runtimes are retained. A new timing exercise is optional; the separate reproduction command records its own environment without deleting the archive.
+3. The prepared files are on the `Richards_solvers_assessment` branch. The earlier pull request #1 was closed without merging after the branch was renamed. Create a pull request from `Richards_solvers_assessment` into `main`, then review and merge it when the manuscript and archive are ready.
+4. Use `release/RELEASE_CHECKLIST.md` to connect Zenodo and publish the final checked version.
 
 ## Safe laptop command
 
@@ -18,7 +17,7 @@ After installing the requirements in an isolated Python environment, open a prom
 python reproduce.py --output reproductions/laptop
 ```
 
-The output directory must be new. The command records the actual environment, reruns the ordinary configurations, copies the reference solutions, writes the combined CSV and regenerates Figures 2–15. Inspect `comparison.json` before transferring any results into the manuscript. The separate validation report documents independent reference reruns performed during preparation.
+The output directory must be new. The command records the actual environment, reruns the ordinary configurations, copies the reference solutions, writes the combined CSV and regenerates Figures 2–15. Inspect `comparison.json` before transferring any results into the manuscript.
 
 ## Preserved files
 
