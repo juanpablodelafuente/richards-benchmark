@@ -1,0 +1,21 @@
+{
+ "case": "polmann",
+ "method": "linimp",
+ "dz": 2.5,
+ "dt": 270,
+ "status": "completed",
+ "reason": "",
+ "t_end": 21600.0,
+ "runtime": 0.011202808999996705,
+ "it_total": 80,
+ "it_mean": 1.0,
+ "it_max": 1,
+ "n_steps": 80,
+ "dS": 1.8352833683343253,
+ "Qnet": 1.2638593726541718,
+ "MB": 1.452126247622101,
+ "epsB": -0.5714239956801535,
+ "MB_endstep": 1.4355414938754885,
+ "length_unit": "cm",
+ "time_unit": "s"
+}

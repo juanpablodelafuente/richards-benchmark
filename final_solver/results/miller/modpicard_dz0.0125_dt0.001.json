@@ -1,0 +1,21 @@
+{
+ "case": "miller",
+ "method": "modpicard",
+ "dz": 0.0125,
+ "dt": 0.001,
+ "status": "completed",
+ "reason": "",
+ "t_end": 0.18,
+ "runtime": 3.8562844680000126,
+ "it_total": 14808,
+ "it_mean": 82.26666666666667,
+ "it_max": 101,
+ "n_steps": 180,
+ "dS": 1.0353804942106333,
+ "Qnet": 1.0353804942106328,
+ "MB": 1.0000000000000004,
+ "epsB": -4.440892098500626e-16,
+ "MB_endstep": 1.0000000000000004,
+ "length_unit": "m",
+ "time_unit": "day"
+}

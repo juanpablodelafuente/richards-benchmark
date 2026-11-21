@@ -1,0 +1,21 @@
+{
+ "case": "polmann",
+ "method": "explicit",
+ "dz": 2.5,
+ "dt": 42,
+ "status": "completed",
+ "reason": "",
+ "t_end": 21600.0,
+ "runtime": 0.028001298999924984,
+ "it_total": 515,
+ "it_mean": 1.0,
+ "it_max": 1,
+ "n_steps": 515,
+ "dS": 1.7666023061639056,
+ "Qnet": 1.7666023061639062,
+ "MB": 0.9999999999999997,
+ "epsB": 6.661338147750939e-16,
+ "MB_endstep": 0.9999999999999997,
+ "length_unit": "cm",
+ "time_unit": "s"
+}

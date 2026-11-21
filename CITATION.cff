@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use this software, cite its specific archived version and the associated paper when available."
+type: software
+title: "Benchmarking numerical solvers for the 1-D Richards equation"
+authors:
+  - family-names: "De la Fuente Cusicanqui"
+    given-names: "Juan Pablo"
+    affiliation: "School of Engineering, Newcastle University"
+  - family-names: "Glenis"
+    given-names: "Vassilis"
+    affiliation: "School of Engineering, Newcastle University"
+  - family-names: "Kilsby"
+    given-names: "Chris"
+    affiliation: "School of Engineering, Newcastle University"
+repository-code: "https://github.com/juanpablodelafuente/richards-benchmark"
+version: "2.0.0"
+license: MIT
+abstract: >-
+  Numerical implementations and reference solutions for five one-dimensional
+  Richards equation benchmarks, including explicit and non-iterative implicit
+  schemes, Picard and Newton iterations, the L-scheme and an L/Newton combination.
+keywords:
+  - Richards equation
+  - unsaturated flow
+  - numerical benchmarking
+  - mass balance
+  - L-scheme
+# MIT applies to the revised code; see README.md for the licence scope.
+# Add the new version DOI after assignment. The v1.0.1 DOI does not identify version 2.0.0.

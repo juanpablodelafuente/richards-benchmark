@@ -1,0 +1,21 @@
+{
+ "case": "lehmann",
+ "method": "linimp",
+ "dz": 2.0,
+ "dt": 1.0,
+ "status": "completed",
+ "reason": "",
+ "t_end": 59.0,
+ "runtime": 0.005456520000052478,
+ "it_total": 59,
+ "it_mean": 1.0,
+ "it_max": 1,
+ "n_steps": 59,
+ "dS": 10.718948962608142,
+ "Qnet": 10.124941930618357,
+ "MB": 1.0586676976579468,
+ "epsB": -0.5940070319897846,
+ "MB_endstep": 1.0586676976579468,
+ "length_unit": "cm",
+ "time_unit": "day"
+}

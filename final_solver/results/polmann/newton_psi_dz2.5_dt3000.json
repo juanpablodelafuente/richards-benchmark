@@ -1,0 +1,21 @@
+{
+ "case": "polmann",
+ "method": "newton_psi",
+ "dz": 2.5,
+ "dt": 3000,
+ "status": "completed",
+ "reason": "",
+ "t_end": 21600.0,
+ "runtime": 0.028602202999991277,
+ "it_total": 119,
+ "it_mean": 14.875,
+ "it_max": 21,
+ "n_steps": 8,
+ "dS": 1.2154059272712043,
+ "Qnet": 2.747644668117227,
+ "MB": 0.4423446529947553,
+ "epsB": 1.5322387408460227,
+ "MB_endstep": 0.4423446529947553,
+ "length_unit": "cm",
+ "time_unit": "s"
+}

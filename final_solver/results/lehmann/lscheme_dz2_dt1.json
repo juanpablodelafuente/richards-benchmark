@@ -1,0 +1,21 @@
+{
+ "case": "lehmann",
+ "method": "lscheme",
+ "dz": 2.0,
+ "dt": 1.0,
+ "status": "completed",
+ "reason": "",
+ "t_end": 59.0,
+ "runtime": 25.382965770000055,
+ "it_total": 239364,
+ "it_mean": 4057.0169491525426,
+ "it_max": 4442,
+ "n_steps": 59,
+ "dS": 10.124941583325306,
+ "Qnet": 10.124941930618357,
+ "MB": 0.999999965699255,
+ "epsB": 3.472930512060657e-07,
+ "MB_endstep": 0.999999965699255,
+ "length_unit": "cm",
+ "time_unit": "day"
+}

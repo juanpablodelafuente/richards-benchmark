@@ -1,0 +1,21 @@
+{
+ "case": "polmann",
+ "method": "explicit",
+ "dz": 2.5,
+ "dt": 60,
+ "status": "failed",
+ "reason": "water content left the admissible range (theta < theta_r) at t = 120 s (step 3)",
+ "t_end": 120.0,
+ "runtime": 0.00024404700002378377,
+ "it_total": 2,
+ "it_mean": 1.0,
+ "it_max": 1,
+ "n_steps": 2,
+ "dS": 0.2766170815283644,
+ "Qnet": 0.2766170815283643,
+ "MB": 1.0000000000000004,
+ "epsB": -1.1102230246251565e-16,
+ "MB_endstep": 1.0000000000000004,
+ "length_unit": "cm",
+ "time_unit": "s"
+}

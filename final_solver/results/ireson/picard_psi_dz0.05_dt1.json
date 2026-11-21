@@ -1,0 +1,21 @@
+{
+ "case": "ireson",
+ "method": "picard_psi",
+ "dz": 0.05,
+ "dt": 1.0,
+ "status": "completed",
+ "reason": "",
+ "t_end": 3652.0,
+ "runtime": 2.996969227000136,
+ "it_total": 27240,
+ "it_mean": 7.458926615553121,
+ "it_max": 46,
+ "n_steps": 3652,
+ "dS": 0.0044767457908535535,
+ "Qnet": 0.30503047207870165,
+ "MB": 0.014676388756656736,
+ "epsB": 0.3005537262878481,
+ "MB_endstep": 0.014676388756656736,
+ "length_unit": "m",
+ "time_unit": "day"
+}

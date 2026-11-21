@@ -1,0 +1,151 @@
+warrick reference level 0: dz=0.3125 dt=10 method=lnewton status=completed it/step=7.5 steps=36000 runtime=63s MB=1.0000000000
+warrick reference level 1: dz=0.15625 dt=5 method=lnewton status=completed it/step=7.2 steps=72000 runtime=147s MB=1.0000000000
+warrick  explicit     dz=5       dt=1       completed it/step=     1.0 t=  22.14s MB=1.0000 
+warrick  explicit     dz=5       dt=60      completed it/step=     1.0 t=   0.35s MB=1.0000 
+warrick  explicit     dz=5       dt=300     completed it/step=     1.0 t=   0.07s MB=1.0000 
+warrick  explicit     dz=5       dt=900     completed it/step=     1.0 t=   0.03s MB=1.0000 
+warrick  explicit     dz=5       dt=1800    completed it/step=     1.0 t=   0.01s MB=1.0000 
+warrick  linimp       dz=5       dt=1       completed it/step=     1.0 t=  48.59s MB=1.0000 
+warrick  linimp       dz=5       dt=900     completed it/step=     1.0 t=   0.04s MB=1.0168 
+warrick  linimp       dz=5       dt=2400    completed it/step=     1.0 t=   0.02s MB=1.0443 
+warrick  picard_psi   dz=5       dt=900     completed it/step=     5.7 t=   0.30s MB=0.9854 
+warrick  picard_psi   dz=5       dt=2400    completed it/step=     7.8 t=   0.16s MB=0.9666 
+warrick  modpicard    dz=5       dt=900     completed it/step=     5.6 t=   0.28s MB=1.0000 
+warrick  modpicard    dz=5       dt=2400    completed it/step=     7.5 t=   0.15s MB=1.0000 
+warrick  newton_psi   dz=5       dt=900     completed it/step=     3.8 t=   0.28s MB=0.9854 
+warrick  newton_psi   dz=5       dt=2400    completed it/step=     4.1 t=   0.11s MB=0.9666 
+warrick  newton_mixed dz=5       dt=900     completed it/step=     3.3 t=   0.21s MB=1.0000 
+warrick  newton_mixed dz=5       dt=2400    completed it/step=     4.0 t=   0.09s MB=1.0000 
+warrick  lscheme      dz=5       dt=900     completed it/step=    40.8 t=   2.02s MB=1.0000 
+warrick  lscheme      dz=5       dt=2400    completed it/step=    44.0 t=   0.82s MB=1.0000 
+warrick  lnewton      dz=5       dt=900     completed it/step=     8.0 t=   0.51s MB=1.0000 
+warrick  lnewton      dz=5       dt=2400    completed it/step=     8.0 t=   0.20s MB=1.0000 
+ALL RUNS DONE
+warrick: summary of 21 rows written
+polmann reference level 0: dz=0.15625 dt=4.5 method=lnewton status=completed it/step=8.7 steps=4800 runtime=12s MB=1.0000000000
+polmann reference level 1: dz=0.078125 dt=2.25 method=lnewton status=completed it/step=8.4 steps=9600 runtime=28s MB=1.0000000000
+polmann  explicit     dz=2.5     dt=1       completed it/step=     1.0 t=   1.48s MB=1.0000 
+polmann  explicit     dz=2.5     dt=42      completed it/step=     1.0 t=   0.03s MB=1.0000 
+polmann  explicit     dz=2.5     dt=60      failed    it/step=     1.0 t=   0.00s MB=1.0000 water content left the admissible range (theta < theta_r) at t = 120 s (step 3)
+polmann  explicit     dz=2.5     dt=90      failed    it/step=     1.0 t=   0.00s MB=1.0000 water content left the admissible range (theta < theta_r) at t = 180 s (step 3)
+polmann  explicit     dz=2.5     dt=126     failed    it/step=     1.0 t=   0.00s MB=1.0000 water content left the admissible range (theta < theta_r) at t = 252 s (step 3)
+polmann  linimp       dz=2.5     dt=1       completed it/step=     1.0 t=   3.31s MB=1.0027 
+polmann  linimp       dz=2.5     dt=270     completed it/step=     1.0 t=   0.01s MB=1.4521 
+polmann  linimp       dz=2.5     dt=900     completed it/step=     1.0 t=   0.00s MB=10.9716 
+polmann  linimp       dz=2.5     dt=3000    completed it/step=     1.0 t=   0.00s MB=13.6977 
+polmann  linimp       dz=2.5     dt=5400    completed it/step=     1.0 t=   0.00s MB=12.0327 
+polmann  picard_psi   dz=2.5     dt=1       completed it/step=     3.0 t=  11.81s MB=0.9975 
+polmann  picard_psi   dz=2.5     dt=900     completed it/step=    30.9 t=   0.12s MB=0.6530 
+polmann  picard_psi   dz=2.5     dt=3000    completed it/step=    62.5 t=   0.11s MB=0.4423 
+polmann  picard_psi   dz=2.5     dt=5400    completed it/step=   101.5 t=   0.08s MB=0.3370 
+polmann  modpicard    dz=2.5     dt=1       completed it/step=     3.0 t=  11.68s MB=1.0000 
+polmann  modpicard    dz=2.5     dt=900     completed it/step=    17.5 t=   0.12s MB=1.0000 
+polmann  modpicard    dz=2.5     dt=3000    completed it/step=    30.0 t=   0.10s MB=1.0000 
+polmann  modpicard    dz=2.5     dt=5400    completed it/step=    44.2 t=   0.03s MB=1.0000 
+polmann  newton_psi   dz=2.5     dt=1       completed it/step=     3.0 t=  17.48s MB=0.9975 
+polmann  newton_psi   dz=2.5     dt=900     completed it/step=     8.0 t=   0.05s MB=0.6530 
+polmann  newton_psi   dz=2.5     dt=3000    completed it/step=    14.9 t=   0.02s MB=0.4423 
+polmann  newton_psi   dz=2.5     dt=5400    completed it/step=    15.8 t=   0.01s MB=0.3370 
+polmann  newton_mixed dz=2.5     dt=1       completed it/step=     3.0 t=  13.17s MB=1.0000 
+polmann  newton_mixed dz=2.5     dt=900     completed it/step=     6.0 t=   0.02s MB=1.0000 
+polmann  newton_mixed dz=2.5     dt=3000    completed it/step=    12.5 t=   0.02s MB=1.0000 
+polmann  newton_mixed dz=2.5     dt=5400    completed it/step=    15.0 t=   0.01s MB=1.0000 
+polmann  lscheme      dz=2.5     dt=900     completed it/step=  4710.4 t=  15.26s MB=1.0000 
+polmann  lscheme      dz=2.5     dt=3000    completed it/step=  4912.1 t=   5.31s MB=1.0000 
+polmann  lscheme      dz=2.5     dt=5400    completed it/step=  5156.5 t=   2.81s MB=1.0000 
+polmann  lnewton      dz=2.5     dt=900     completed it/step=    10.5 t=   0.05s MB=1.0000 
+polmann  lnewton      dz=2.5     dt=3000    completed it/step=    11.4 t=   0.03s MB=1.0000 
+polmann  lnewton      dz=2.5     dt=5400    completed it/step=    12.8 t=   0.01s MB=1.0000 
+polmann  modpicard    dz=1.25    dt=900     completed it/step=    25.4 t=   0.09s MB=1.0000 
+polmann  modpicard    dz=0.625   dt=900     completed it/step=    35.7 t=   0.14s MB=1.0000 
+ALL RUNS DONE
+polmann: summary of 35 rows written
+miller reference level 0: dz=0.0015625 dt=0.0001 method=lnewton status=completed it/step=17.6 steps=1800 runtime=56s MB=1.0000000000
+/workspace/scratch/623fb92e1e28/solver_release_assessment/repository/revised_solver/richards_revised.py:60: RuntimeWarning: overflow encountered in power
+  c = (self.theta_s - self.theta_r) * self.alpha * n * m * x ** (n - 1) / (1 + x ** n) ** (m + 1)
+/workspace/scratch/623fb92e1e28/solver_release_assessment/repository/revised_solver/richards_revised.py:71: RuntimeWarning: overflow encountered in power
+  a = 1 + x ** n
+/workspace/scratch/623fb92e1e28/solver_release_assessment/repository/revised_solver/richards_revised.py:72: RuntimeWarning: overflow encountered in power
+  k = self.ks * (1 - x ** (n - 1) * a ** (-m)) ** 2 / a ** (0.5 * m)
+/workspace/scratch/623fb92e1e28/solver_release_assessment/repository/revised_solver/richards_revised.py:72: RuntimeWarning: invalid value encountered in multiply
+  k = self.ks * (1 - x ** (n - 1) * a ** (-m)) ** 2 / a ** (0.5 * m)
+/workspace/scratch/623fb92e1e28/solver_release_assessment/repository/revised_solver/richards_revised.py:54: RuntimeWarning: overflow encountered in power
+  return self.theta_r + (self.theta_s - self.theta_r) * (1 + x ** self.n) ** (-self.mm)
+/workspace/scratch/623fb92e1e28/solver_release_assessment/repository/revised_solver/richards_revised.py:60: RuntimeWarning: invalid value encountered in divide
+  c = (self.theta_s - self.theta_r) * self.alpha * n * m * x ** (n - 1) / (1 + x ** n) ** (m + 1)
+miller reference level 1: dz=0.00078125 dt=5e-05 method=lnewton status=completed it/step=17.4 steps=3600 runtime=211s MB=1.0000000000
+miller   explicit     dz=0.0125  dt=0.001   failed    it/step=     1.0 t=   0.00s MB=1.0000 water content left the admissible range (theta < theta_r) at t = 0.004 day (step
+miller   linimp       dz=0.0125  dt=0.001   completed it/step=     1.0 t=   0.04s MB=80554.5860 
+miller   linimp       dz=0.0125  dt=0.002   completed it/step=     1.0 t=   0.02s MB=109772.7575 
+miller   linimp       dz=0.0125  dt=0.005   completed it/step=     1.0 t=   0.01s MB=128982.3302 
+miller   linimp       dz=0.0125  dt=0.01    completed it/step=     1.0 t=   0.00s MB=135639.4753 
+miller   picard_psi   dz=0.0125  dt=0.001   failed    it/step=     0.0 t=   2.80s MB=nan no convergence in 10000 iterations (scaled residual 1.58e+02) at t = 0 day (step
+miller   picard_psi   dz=0.0125  dt=0.002   failed    it/step=     0.0 t=   3.13s MB=nan no convergence in 10000 iterations (scaled residual 3.24e+02) at t = 0 day (step
+miller   picard_psi   dz=0.0125  dt=0.005   completed it/step=    22.3 t=   0.34s MB=40262.6830 
+miller   picard_psi   dz=0.0125  dt=0.01    completed it/step=    43.2 t=   0.44s MB=40262.6830 
+miller   modpicard    dz=0.0125  dt=0.001   completed it/step=    82.3 t=   4.74s MB=1.0000 
+miller   modpicard    dz=0.0125  dt=0.002   completed it/step=   258.5 t=   5.90s MB=1.0000 
+miller   modpicard    dz=0.0125  dt=0.005   failed    it/step=     0.0 t=   2.37s MB=nan no convergence in 10000 iterations (scaled residual 1.26e+00) at t = 0 day (step
+miller   modpicard    dz=0.0125  dt=0.01    failed    it/step=     0.0 t=   2.62s MB=nan no convergence in 10000 iterations (scaled residual 7.77e+00) at t = 0 day (step
+miller   newton_psi   dz=0.0125  dt=0.001   failed    it/step=     0.0 t=   0.48s MB=nan non-finite update at iteration 769 at t = 0 day (step 1)
+miller   newton_psi   dz=0.0125  dt=0.002   failed    it/step=   805.0 t=   4.85s MB=0.0181 no convergence in 10000 iterations (scaled residual 2.96e+02) at t = 0.002 day (
+miller   newton_psi   dz=0.0125  dt=0.005   failed    it/step=     0.0 t=   0.34s MB=nan singular linear system at iteration 811 at t = 0 day (step 1)
+miller   newton_psi   dz=0.0125  dt=0.01    failed    it/step=     0.0 t=   4.35s MB=nan no convergence in 10000 iterations (scaled residual 1.63e+03) at t = 0 day (step
+miller   newton_mixed dz=0.0125  dt=0.001   failed    it/step=     0.0 t=   2.95s MB=nan no convergence in 10000 iterations (scaled residual 1.56e+02) at t = 0 day (step
+miller   newton_mixed dz=0.0125  dt=0.002   failed    it/step=     0.0 t=   0.03s MB=nan non-finite update at iteration 99 at t = 0 day (step 1)
+miller   newton_mixed dz=0.0125  dt=0.005   failed    it/step=     0.0 t=   0.02s MB=nan non-finite update at iteration 68 at t = 0 day (step 1)
+miller   newton_mixed dz=0.0125  dt=0.01    failed    it/step=     0.0 t=   0.03s MB=nan non-finite update at iteration 101 at t = 0 day (step 1)
+miller   lscheme      dz=0.0125  dt=0.001   failed    it/step=     0.0 t=   2.17s MB=nan no convergence in 10000 iterations (scaled residual 3.78e-04) at t = 0 day (step
+miller   lscheme      dz=0.0125  dt=0.002   failed    it/step=     0.0 t=   2.13s MB=nan no convergence in 10000 iterations (scaled residual 1.01e-06) at t = 0 day (step
+miller   lscheme      dz=0.0125  dt=0.005   failed    it/step=     0.0 t=   2.18s MB=nan no convergence in 10000 iterations (scaled residual 2.47e+00) at t = 0 day (step
+miller   lscheme      dz=0.0125  dt=0.01    failed    it/step=     0.0 t=   2.35s MB=nan no convergence in 10000 iterations (scaled residual 9.03e+00) at t = 0 day (step
+miller   lnewton      dz=0.0125  dt=0.001   completed it/step=    18.3 t=   1.48s MB=1.0000 
+miller   lnewton      dz=0.0125  dt=0.002   completed it/step=    24.5 t=   1.18s MB=1.0000 
+miller   lnewton      dz=0.0125  dt=0.005   completed it/step=    39.0 t=   0.81s MB=1.0000 
+miller   lnewton      dz=0.0125  dt=0.01    failed    it/step=    62.8 t=   0.80s MB=1.0000 non-finite update at iteration 40 at t = 0.16 day (step 17)
+ALL RUNS DONE
+miller: summary of 30 rows written
+lehmann reference level 0: dz=0.25 dt=0.0208333 method=lnewton status=completed it/step=8.4 steps=2832 runtime=6s MB=1.0000000000
+lehmann reference level 1: dz=0.125 dt=0.0104167 method=lnewton status=completed it/step=8.3 steps=5664 runtime=16s MB=1.0000000000
+lehmann  picard_psi   dz=1       dt=1       failed    it/step=     0.0 t=   1.40s MB=nan no convergence in 10000 iterations (scaled residual 9.78e-01) at t = 0 day (step
+lehmann  picard_psi   dz=2       dt=1       failed    it/step=     0.0 t=   1.14s MB=nan no convergence in 10000 iterations (scaled residual 4.31e+04) at t = 0 day (step
+lehmann  picard_psi   dz=5       dt=1       failed    it/step=     0.0 t=   1.11s MB=nan no convergence in 10000 iterations (scaled residual 2.00e-01) at t = 0 day (step
+lehmann  picard_psi   dz=10      dt=1       failed    it/step=     0.0 t=   1.07s MB=nan no convergence in 10000 iterations (scaled residual 9.93e-02) at t = 0 day (step
+lehmann  modpicard    dz=1       dt=1       completed it/step=    33.7 t=   0.27s MB=1.0000 
+lehmann  modpicard    dz=2       dt=1       completed it/step=    30.3 t=   0.21s MB=1.0000 
+lehmann  modpicard    dz=5       dt=1       failed    it/step=    23.5 t=   1.18s MB=1.0000 no convergence in 10000 iterations (scaled residual 1.60e-01) at t = 33 day (ste
+lehmann  modpicard    dz=10      dt=1       failed    it/step=    43.4 t=   1.23s MB=1.0000 no convergence in 10000 iterations (scaled residual 1.93e-01) at t = 34 day (ste
+lehmann  linimp       dz=2       dt=1       completed it/step=     1.0 t=   0.01s MB=1.0587 
+lehmann  newton_psi   dz=2       dt=1       completed it/step=     7.7 t=   0.08s MB=0.4142 
+lehmann  newton_mixed dz=2       dt=1       failed    it/step=     0.0 t=   0.01s MB=nan singular linear system at iteration 62 at t = 0 day (step 1)
+lehmann  lscheme      dz=2       dt=1       completed it/step=  4057.0 t=  26.63s MB=1.0000 
+lehmann  lnewton      dz=2       dt=1       completed it/step=    10.3 t=   0.09s MB=1.0000 
+ALL RUNS DONE
+lehmann: summary of 14 rows written
+ireson reference level 0: dz=0.0125 dt=0.0833333 method=newton_mixed status=completed it/step=3.2 steps=43824 runtime=30s MB=1.0000000000
+ireson reference level 1: dz=0.00625 dt=0.0416667 method=newton_mixed status=completed it/step=3.1 steps=87648 runtime=73s MB=1.0000000000
+ireson   linimp       dz=0.05    dt=1       completed it/step=     1.0 t=   0.40s MB=-0.0455 
+ireson   picard_psi   dz=0.05    dt=1       completed it/step=     7.5 t=   3.19s MB=0.0147 
+ireson   modpicard    dz=0.05    dt=1       completed it/step=     7.3 t=   3.08s MB=1.0000 
+ireson   newton_psi   dz=0.05    dt=1       completed it/step=     4.2 t=   2.69s MB=0.0147 
+ireson   newton_mixed dz=0.05    dt=1       completed it/step=     4.1 t=   2.38s MB=1.0000 
+ireson   lscheme      dz=0.05    dt=1       completed it/step=    14.6 t=   5.60s MB=1.0001 
+ireson   lnewton      dz=0.05    dt=1       completed it/step=     7.4 t=   3.74s MB=1.0000 
+ALL RUNS DONE
+ireson: summary of 9 rows written
+Figure 2 written
+Figure 3 written
+Figure 4 written
+Figure 5 written
+Figure 6 written
+Figure 7 written
+Figure 8 written
+Figure 9 written
+Figure 10 written
+Figure 11 written
+Figure 12 written
+Figure 13 written
+Figure 14 written
+Figure 15 written
+Saved to /workspace/scratch/623fb92e1e28/solver_release_assessment/validation_run. Runs requiring review: 0
+Inspect comparison.json before transferring any numbers to the manuscript.

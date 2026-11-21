@@ -1,0 +1,21 @@
+{
+ "case": "lehmann",
+ "method": "picard_psi",
+ "dz": 2.0,
+ "dt": 1.0,
+ "status": "failed",
+ "reason": "no convergence in 10000 iterations (scaled residual 4.31e+04) at t = 0 day (step 1)",
+ "t_end": 0.0,
+ "runtime": 1.2417607800000496,
+ "it_total": 0,
+ "it_mean": 0.0,
+ "it_max": 0,
+ "n_steps": 1,
+ "dS": 0.0,
+ "Qnet": 0.0,
+ "MB": NaN,
+ "epsB": 0.0,
+ "MB_endstep": NaN,
+ "length_unit": "cm",
+ "time_unit": "day"
+}

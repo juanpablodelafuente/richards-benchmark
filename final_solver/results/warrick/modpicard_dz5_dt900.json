@@ -1,0 +1,21 @@
+{
+ "case": "warrick",
+ "method": "modpicard",
+ "dz": 5.0,
+ "dt": 900,
+ "status": "completed",
+ "reason": "",
+ "t_end": 360000.0,
+ "runtime": 0.2640277079999578,
+ "it_total": 2245,
+ "it_mean": 5.6125,
+ "it_max": 7,
+ "n_steps": 400,
+ "dS": 9.356360854403661,
+ "Qnet": 9.35636085434587,
+ "MB": 1.0000000000061768,
+ "epsB": -5.779199341304775e-11,
+ "MB_endstep": 1.0000000000061768,
+ "length_unit": "cm",
+ "time_unit": "s"
+}

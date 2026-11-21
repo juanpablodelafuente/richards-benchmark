@@ -1,0 +1,21 @@
+{
+ "case": "warrick",
+ "method": "linimp",
+ "dz": 5.0,
+ "dt": 900,
+ "status": "completed",
+ "reason": "",
+ "t_end": 360000.0,
+ "runtime": 0.049529910000046584,
+ "it_total": 400,
+ "it_mean": 1.0,
+ "it_max": 1,
+ "n_steps": 400,
+ "dS": 9.357321937288653,
+ "Qnet": 9.202366525335702,
+ "MB": 1.016838648137556,
+ "epsB": -0.15495541195295104,
+ "MB_endstep": 1.0131516210068718,
+ "length_unit": "cm",
+ "time_unit": "s"
+}

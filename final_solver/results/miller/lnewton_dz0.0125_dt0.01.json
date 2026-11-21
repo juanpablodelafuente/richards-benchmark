@@ -1,0 +1,21 @@
+{
+ "case": "miller",
+ "method": "lnewton",
+ "dz": 0.0125,
+ "dt": 0.01,
+ "status": "failed",
+ "reason": "non-finite update at iteration 40 at t = 0.16 day (step 17)",
+ "t_end": 0.16,
+ "runtime": 0.5948811170001136,
+ "it_total": 1005,
+ "it_mean": 62.8125,
+ "it_max": 91,
+ "n_steps": 16,
+ "dS": 0.9426565638992869,
+ "Qnet": 0.9426565638992869,
+ "MB": 1.0,
+ "epsB": 0.0,
+ "MB_endstep": 1.0,
+ "length_unit": "m",
+ "time_unit": "day"
+}

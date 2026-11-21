@@ -1,0 +1,21 @@
+{
+ "case": "miller",
+ "method": "explicit",
+ "dz": 0.0125,
+ "dt": 0.001,
+ "status": "failed",
+ "reason": "water content left the admissible range (theta < theta_r) at t = 0.004 day (step 5)",
+ "t_end": 0.004,
+ "runtime": 0.0008196369999495801,
+ "it_total": 4,
+ "it_mean": 1.0,
+ "it_max": 1,
+ "n_steps": 4,
+ "dS": 2.1673004386083,
+ "Qnet": 2.1673004386082995,
+ "MB": 1.0000000000000002,
+ "epsB": -4.440892098500626e-16,
+ "MB_endstep": 1.0000000000000002,
+ "length_unit": "m",
+ "time_unit": "day"
+}

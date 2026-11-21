@@ -1,0 +1,21 @@
+{
+ "case": "lehmann",
+ "method": "lnewton",
+ "dz": 0.25,
+ "dt": 0.020833333333333332,
+ "status": "completed",
+ "reason": "",
+ "t_end": 59.0,
+ "runtime": 6.127837922999959,
+ "it_total": 23822,
+ "it_mean": 8.411723163841808,
+ "it_max": 13,
+ "n_steps": 2832,
+ "dS": 10.124941930618334,
+ "Qnet": 10.12494193061865,
+ "MB": 0.9999999999999688,
+ "epsB": 3.161915174132446e-13,
+ "MB_endstep": 0.9999999999999688,
+ "length_unit": "cm",
+ "time_unit": "day"
+}

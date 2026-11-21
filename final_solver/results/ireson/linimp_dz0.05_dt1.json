@@ -1,0 +1,21 @@
+{
+ "case": "ireson",
+ "method": "linimp",
+ "dz": 0.05,
+ "dt": 1.0,
+ "status": "completed",
+ "reason": "",
+ "t_end": 3652.0,
+ "runtime": 0.320457443000123,
+ "it_total": 3652,
+ "it_mean": 1.0,
+ "it_max": 1,
+ "n_steps": 3652,
+ "dS": 0.00738901030803174,
+ "Qnet": -0.1622625255874928,
+ "MB": -0.04553738012691999,
+ "epsB": -0.16965153589552454,
+ "MB_endstep": -0.04548552520597377,
+ "length_unit": "m",
+ "time_unit": "day"
+}
